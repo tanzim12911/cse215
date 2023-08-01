@@ -41,9 +41,9 @@ public class q7 {
             System.out.println("    " + amount_nickels + "nickel");
         
             if (amount_pennies > 1)
-            System.out.println("    " + amount_pennies + "pennies(s)");
+            System.out.println("    " + amount_pennies + " pennies(s)");
         else
-            System.out.println("    " + amount_pennies + "penny");
+            System.out.println("    " + amount_pennies + " penny");
 
     }
 }
