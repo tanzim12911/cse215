@@ -16,22 +16,22 @@ public class q7 {
         int amount_dimes = temp / 10;
         int amount_pennies = temp % 10;
 
-        System.out.println("Your amount " + amount + "consists of");
+        System.out.println("Your amount " + amount + " consists of");
 
         if (amount_dollars > 1)
-            System.out.println("    " + amount_dollars + "dollar(s)");
+            System.out.println("    " + amount_dollars + " dollar(s)");
         else
-            System.out.println("    " + amount_dollars + "dollar");
+            System.out.println("    " + amount_dollars + " dollar");
         
         if (amount_quarters > 1)
-            System.out.println("    " + amount_quarters + "quarter(s)");
+            System.out.println("    " + amount_quarters + " quarter(s)");
         else
-            System.out.println("    " + amount_quarters + "quarter");
+            System.out.println("    " + amount_quarters + " quarter");
 
         if (amount_dimes > 1)
-            System.out.println("    " + amount_dimes + "dime(s)");
+            System.out.println("    " + amount_dimes + " dime(s)");
         else
-            System.out.println("    " + amount_dimes + "dime");
+            System.out.println("    " + amount_dimes + " dime");
 
         if (amount_pennies > 1)
             System.out.println("    " + amount_pennies + "pennies(s)");
