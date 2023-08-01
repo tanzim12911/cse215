@@ -11,16 +11,18 @@ public class q8 {
 
         int temp;
 
-        if (num_1 < num_2); {
+        if (num_1 > num_2); {
             temp = num_1;
             num_1 = num_2;
             num_2 = temp;
         }
-        if (num_2 < num_3) {
+        if (num_2 > num_3) {
             temp = num_2;
             num_2 = num_3;
             num_3 = temp;
         }
+
+        System.out.println("Non-decreasing order: " + num_1+ " " + num_2 + " " + num_3);
 
     }
 }
