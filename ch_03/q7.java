@@ -8,7 +8,7 @@ public class q7 {
         System.out.print("Enter an amount in double, for example 11.56: ");
         double amount = sc.nextDouble();
 
-        int amount_cents = (int) amount * 100;
+        int amount_cents = (int) (amount * 100);
         int amount_dollars = amount_cents / 100;
         int temp = amount_cents % 100;
         int amount_quarters = (temp) / 25;
