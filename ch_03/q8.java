@@ -16,7 +16,7 @@ public class q8 {
             num_1 = num_2;
             num_2 = temp;
         }
-        else if (num_2 < num_3) {
+        if (num_2 < num_3) {
             temp = num_2;
             num_2 = num_3;
             num_3 = temp;
