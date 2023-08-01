@@ -9,7 +9,7 @@ public class q33 {
         double weight_pck1 = sc.nextDouble();
         double price_pck1 = sc.nextDouble();
 
-        System.out.print("Enter weight and price for package 1: ");
+        System.out.print("Enter weight and price for package 2: ");
         double weight_pck2 = sc.nextDouble();
         double price_pck2 = sc.nextDouble();
 
