@@ -8,7 +8,7 @@ public class q6 {
 
         System.out.print("Enter weight in pounds: ");
         double weight_lbs = sc.nextDouble();
-        System.out.print("Enter feet");
+        System.out.print("Enter feet: ");
         double height_ft = sc.nextDouble();
         System.out.print("Enter inches: ");
         double height_in = sc.nextDouble();
@@ -17,6 +17,7 @@ public class q6 {
         double height_m = (height_ft * 12 + height_in) * 0.0254;
 
         double bmi = weight_kgs / Math.pow(height_m, 2);
+        System.out.println("BMI is " + bmi);
 
         if (bmi < 18.5)
             System.out.println("Underweight");
