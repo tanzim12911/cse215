@@ -15,7 +15,7 @@ public class q14 {
         else   
             guess_conv = 1;
         
-        int flip = (int) (Math.random());
+        int flip = (int) (Math.random() * 2);
         System.out.println("Flip result: " + flip);
 
         if (guess_conv == flip)
