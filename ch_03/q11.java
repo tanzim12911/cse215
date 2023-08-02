@@ -57,7 +57,7 @@ public class q11 {
         }
 
         if (month == 4 || month == 6  || month == 9 || month == 11)
-            numOfDays = 31;
+            numOfDays = 30;
         else if (month == 2) {
             if (year % 4 == 0)
                 numOfDays = 29;
@@ -65,7 +65,7 @@ public class q11 {
                 numOfDays = 28;
         }
         else
-            numOfDays = 30;
+            numOfDays = 31;
         
         System.out.println(month_name + " " + year + " has " + numOfDays + " Days");
         
