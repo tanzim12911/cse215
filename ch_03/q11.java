@@ -11,7 +11,7 @@ public class q11 {
         int year = sc.nextInt();
 
         int numOfDays;
-        String month_name;
+        String month_name = " ";
 
         switch (month) {
             case 1:
