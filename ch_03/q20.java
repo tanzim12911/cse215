@@ -21,7 +21,7 @@ public class q20 {
             System.out.println("The wind chill index is " + t_wc);
         }
         else {
-            if ((t_a < -58 || t_a > 41) && (v <= 2))
+            if ((t_a < -58 ||44 t_a > 41) && (v <= 2))
                 System.out.println("The temperatue and wind speed is invalid");
             else   
                 System.out.println("The temperature or wind speed is invalid");
