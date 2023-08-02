@@ -5,7 +5,7 @@ import java.util.Scanner;;
 public class q19 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter three edges of a traingle");
+        System.out.print("Enter three edges of a traingle: ");
         double edge_1 = sc.nextDouble();
         double edge_2 = sc.nextDouble();
         double edge_3 = sc.nextDouble();
