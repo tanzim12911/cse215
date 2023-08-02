@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class q12 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System,in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a three-digit integer: ");
         int number = sc.nextInt();
