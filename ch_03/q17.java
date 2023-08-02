@@ -11,7 +11,7 @@ public class q17 {
 
         String inp_name_user, inp_name_cpu;
 
-        int cpu_inp = (int) (Math.random() * 2);
+        int cpu_inp = (int) (Math.random() * 3);
 
         if (user_inp == 0)
             inp_name_user = "scissor";
