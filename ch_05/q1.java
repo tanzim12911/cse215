@@ -22,7 +22,7 @@ public class q1 {
             num = sc.nextInt();
         }
 
-        double avg = sum / count_num;
+        double avg = (double) (sum / count_num);
 
         System.out.println("The number of positives is " + count_pos);
         System.out.println("The number of negatives is " + count_neg);
