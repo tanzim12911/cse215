@@ -10,16 +10,16 @@ public class q1 {
         int num = sc.nextInt();
         
         while (num != 0) {
-
-            num = sc.nextInt();
             
             if (num > 0)
                 count_pos++;
-            if (num < 0)
+            else
                 count_neg++;
 
             sum += num;
             count_num++;
+
+            num = sc.nextInt();
         }
 
         double avg = sum / count_num;
