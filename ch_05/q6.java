@@ -2,7 +2,7 @@ package ch_05;
 
 public class q6 {
     public static void main(String[] args) {
-        System.out.println("Kilograms Pounds | Pounds Kilograms");
+        System.out.println("Kilograms Pounds  |  Pounds Kilograms");
         for (int i = 1, j = 20; i <= 10; i ++, j += 5) 
         {
             double calcKM = i * 1.609;
