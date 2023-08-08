@@ -18,7 +18,7 @@ public class q2 {
             {
                 int temp = num_1;
                 num_1 = num_2;
-                num_2 = num_1;
+                num_2 = temp;
             }
 
             System.out.println("What is " + num_1 + " - " + num_2 + " ?" );
