@@ -11,5 +11,7 @@ public class q7 {
             total_fee += tuition_fee;
             System.out.println("Tuition fee for year " + i + " is $" + tuition_fee);
         }
+        System.out.println("Total fee for 10 years is $" + total_fee);
     }
+
 }
