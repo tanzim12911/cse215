@@ -9,7 +9,7 @@ public class q8 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of students: ");
         int num = sc.nextInt();
-        sc.nextLine()
+        sc.nextLine();
 
         for (int i = 1; i <= num; i++)
         {
