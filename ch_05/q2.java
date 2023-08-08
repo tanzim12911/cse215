@@ -21,7 +21,7 @@ public class q2 {
                 num_2 = num_1;
             }
 
-            System.out.print("What is " + num_1 + " - " + num_2 + " ?" );
+            System.out.println("What is " + num_1 + " - " + num_2 + " ?" );
             int answer = sc.nextInt();
 
             if (answer == num_1 - num_2)
