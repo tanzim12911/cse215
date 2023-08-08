@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class q8 {
     public static void main(String[] args) {
-        String stuName, stuNameHighest;
+        String stuName, stuNameHighest = "";
         int stuScore, stuScoreHighest = 0;
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of students: ");
@@ -14,6 +14,7 @@ public class q8 {
         {
             System.out.print("Enter Name of Student " + i + ": ");
             stuName = sc.nextLine();
+            sc.nextLine();
             
             System.out.print("Enter Score of Student " + i + ": ");
             stuScore = sc.nextInt();
@@ -24,5 +25,7 @@ public class q8 {
                 stuNameHighest = stuName;
             }
         }
+
+        System.out.println("Name of the Highest Scorer: " + stuNameHighest);
     }
 }
