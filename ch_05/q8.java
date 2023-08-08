@@ -16,6 +16,7 @@ public class q8 {
             stuName = sc.nextLine();
             System.out.print("Enter Score of Student " + i + ": ");
             stuScore = sc.nextInt();
+            sc.nextLine();
             
             if(stuScore > stuScoreHighest)
             {
