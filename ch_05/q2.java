@@ -11,8 +11,8 @@ public class q2 {
 
         for (int i = 0; i < 10; i++) {
             
-            int num_1 = (int) (Math.random() * 15);
-            int num_2 = (int) (Math.random() * 15);
+            int num_1 = (int) ((Math.random() * 14) + 1);
+            int num_2 = (int) ((Math.random() * 14) + 1);
 
             if (num_1 < num_2)
             {
