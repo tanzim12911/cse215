@@ -1,3 +1,5 @@
+package ch_05;
+
 import java.util.Scanner;
 
 public class test {
