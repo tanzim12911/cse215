@@ -8,9 +8,11 @@ public class q1 {
         System.out.print("Enter an integer, the input ends if it is 0: ");
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
+        
         while (num != 0) {
 
             num = sc.nextInt();
+            
             if (num > 0)
                 count_pos++;
             else
