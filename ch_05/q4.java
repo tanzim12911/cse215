@@ -7,5 +7,5 @@ public class q4 {
             System.out.println(i + "        " + (i * 1.609));
         }
     }
-    }
 }
+
