@@ -3,10 +3,10 @@ package ch_05;
 public class q13 {
     public static void main(String[] args) {
         int n = 20;
-        while (n * n * n > 12000) {
-        n++;
-    
-    }
+        while (n * n * n > 12000) 
+        {
+            n++;
+        }
     System.out.println("Smaller value of n: " + n);
     }
 }
