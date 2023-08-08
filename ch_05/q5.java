@@ -7,7 +7,7 @@ public class q5 {
             System.out.printf("%d        %.1f", i, (i * 2.2));
         }
         for (int i = 20; i <= 515; i += 5 ) {
-            System.out.printf("%d        %.1f\n", i, (i / 2.2));
+            System.out.printf("%d        %.1f", i, (i / 2.2));
         }
     }
 }
