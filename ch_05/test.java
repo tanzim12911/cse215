@@ -4,17 +4,30 @@ import java.util.Scanner;
 
 public class test {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        int sum = 0, count_num = 0, count_pos = 0, count_neg = 0;
+        System.out.print("Enter an integer, the input ends if it is 0: ");
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
         
-        System.out.println("Enter integers (end with 0):");
-        
-        int input = scanner.nextInt();
-        while (input != 0) {
-            System.out.println("You entered: " + input);
-            input = scanner.nextInt();
+        while (num != 0) {
+            if (num > 0)
+                count_pos++;
+            else
+                count_neg++;
+
+            sum += num;
+            count_num++;
+            
+            num = sc.nextInt(); // Move this line here
         }
-        
-        System.out.println("Program ended.");
+
+        double avg = (double) sum / count_num; // Ensure double division
+
+        System.out.println("The number of positives is " + count_pos);
+        System.out.println("The number of negatives is " + count_neg);
+        System.out.println("The total is " + sum);
+        System.out.println("The average is " + avg);
     }
 }
+
 
