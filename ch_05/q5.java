@@ -8,7 +8,7 @@ public class q5 {
             double calcPound = i * 2.2;
             double calcKilo = j / 2.2;
             
-            System.out.print(i + "          ");
+            System.out.print(i + "       ");
             System.out.printf(" %.1f", calcPound);
             System.out.print(" | " + j + " ");
             System.err.printf(" %.2f\n", calcKilo);
