@@ -8,7 +8,7 @@ public class q6 {
             double calcKM = i * 1.609;
             double calcML = j / 1.609;
             
-            System.out.print(i + "       ");
+            System.out.print(i + "           ");
             System.out.printf(" %.1f", calcKM);
             System.out.print(" |    " + j + "    ");
             System.err.printf(" %.2f\n", calcML);
