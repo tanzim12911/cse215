@@ -15,7 +15,6 @@ public class q8 {
             System.out.print("Enter Name of Student " + i + ": ");
             stuName = sc.nextLine();
             sc.nextLine();
-            
             System.out.print("Enter Score of Student " + i + ": ");
             stuScore = sc.nextInt();
             
