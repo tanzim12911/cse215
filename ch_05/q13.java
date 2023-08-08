@@ -8,5 +8,6 @@ public class q13 {
     
     }
     System.out.println("Smaller value of n: " + n);
-} 
+    }
+}
 
