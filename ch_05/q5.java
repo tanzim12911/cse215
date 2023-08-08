@@ -10,7 +10,7 @@ public class q5 {
             
             System.out.print(i + "       ");
             System.out.printf(" %.1f", calcPound);
-            System.out.print(" | " + j + " ");
+            System.out.print(" |    " + j + "    ");
             System.err.printf(" %.2f\n", calcKilo);
         }
     }
