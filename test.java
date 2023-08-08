@@ -1,8 +1,6 @@
-package ch_05;
-
 import java.util.Scanner;
 
-public class q8 {
+public class test {
     public static void main(String[] args) {
         String stuName, stuNameHighest = "";
         int stuScore, stuScoreHighest = 0;
