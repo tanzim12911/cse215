@@ -15,7 +15,7 @@ public class q1 {
             
             if (num > 0)
                 count_pos++;
-            else
+            if
                 count_neg++;
 
             sum += num;
