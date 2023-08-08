@@ -7,9 +7,9 @@ public class q7 {
 
         for (int i = 1; i <= 10; i++)
         {
-            System.out.println("Tuition fee for year " + i + " is $" + tuition_fee);
             tuition_fee = tuition_fee + tuition_fee * 0.05;
             total_fee += tuition_fee;
+            System.out.println("Tuition fee for year " + i + " is $" + tuition_fee);
         }
     }
 }
