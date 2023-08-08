@@ -10,19 +10,19 @@ public class q8 {
         System.out.print("Enter the number of students: ");
         int num = sc.nextInt();
 
-        for (int i = 1; i <= num; i++)
-        {
+        for (int i = 1; i <= num; i++) {
             System.out.print("Enter Name of Student " + i + ": ");
             stuName = sc.nextLine();
+        
             System.out.print("Enter Score of Student " + i + ": ");
             stuScore = sc.nextInt();
-            sc.nextLine();
-            
-            if(stuScore > stuScoreHighest)
-            {
+            sc.nextLine(); // Consume the newline character
+        
+            if (stuScore > stuScoreHighest) {
                 stuScoreHighest = stuScore;
                 stuNameHighest = stuName;
             }
         }
+        
     }
 }
