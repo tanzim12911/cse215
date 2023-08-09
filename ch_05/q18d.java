@@ -10,7 +10,7 @@ public class q18d {
             }
             for (int k = 1; k <= i; k++)
             {
-                System.out.print(k);
+                System.out.print(k + " ");
             }
             System.out.println();
         }
