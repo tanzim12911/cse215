@@ -8,6 +8,7 @@ public class q18b {
             {
                 System.out.print(j + " ");
             }
+            System.out.println();
         }
     }
 }
