@@ -6,7 +6,7 @@ public class q18a {
         {
             for (int j = 2; j <= i; j++)
             {
-                System.out.print("*");
+                System.out.print("* ");
             }
             System.out.println();
         }
