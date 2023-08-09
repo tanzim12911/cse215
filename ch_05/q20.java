@@ -5,7 +5,7 @@ public class q20 {
         int count = 0;
         for (int i = 2; i <= 100; i++)
         {
-            for (int j = i; j <= i; j++)
+            for (int j = i / 2; j <= 100; j++)
             {
                 if (i % j != 0)
                 {
