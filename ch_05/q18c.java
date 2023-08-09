@@ -8,7 +8,7 @@ public class q18c {
             {
                 System.out.print(" ");
             }
-            for (int k = 1; k <= i; ++k)
+            for (int k = i; k >= 1; k--)
             {
                 System.out.print(i + " " + k);
             }
