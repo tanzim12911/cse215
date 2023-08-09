@@ -8,9 +8,9 @@ public class q18c {
             {
                 System.out.print(" ");
             }
-            for (int k = 1; k <= i; ++k)
+            for (int k = 1; k <= 6; ++k)
             {
-                System.out.print(k + " ");
+                System.out.print(i + " " + k);
             }
             System.out.println();
         }
