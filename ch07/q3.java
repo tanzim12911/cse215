@@ -20,7 +20,7 @@ public class q3 {
 
         for (int j = 0; j < i; j++) 
         {
-            for (int k = 1; j < i; k++) 
+            for (int k = j + 1; k < i; k++) 
             {
                 if (numList[j] == numList[k])
                     count++;
@@ -28,7 +28,7 @@ public class q3 {
                 if (count > 1)
                     System.out.println(numList[j] + " occurs " + count + " times");
                 else   
-                  System.out.println(numList[j] + " occurs " + count + " times");
+                  System.out.println(numList[j] + " occurs " + count + " time");
             }
             count = 0;
         }
