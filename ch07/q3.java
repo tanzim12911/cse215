@@ -9,9 +9,12 @@ public class q3 {
         int i = 0, count = 0;
         int [] numList = new int[100];
         
-        while (numList[i] != 0) 
+        while (numList[i] != 0)
         {
             numList[i] = sc.nextInt();
+            
+            if (numList[i] == 0)
+                break;  
             i++;
         }
 
