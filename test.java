@@ -6,7 +6,7 @@ import java.util.Scanner;
  * *7.3 (Count occurrence of numbers) Write a program that reads the integers between 1
  * and 100 and counts the occurrences of each. Assume the input ends with 0.
  */
-public class Exercise07_03 {
+public class test {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
