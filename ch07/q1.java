@@ -12,7 +12,7 @@ public class q1 {
         char [] gradeList = new char[stuNum];
         int maxNum = 0;
 
-        System.out.print("Enter " + stuNum + "scores: ");
+        System.out.print("Enter " + stuNum + " scores: ");
         
         for (int i = 0; i < stuNum; i++) {
             numList[i] = sc.nextInt();
