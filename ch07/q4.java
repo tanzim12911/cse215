@@ -9,10 +9,15 @@ public class q4 {
         double [] numList = new double[100];
         int count = 0, countAbove = 0, countBelow = 0, countEqual = 0;
         double sum = 0, avg;
-        do {
+        
+        while (true) {
             numList[count] = sc.nextDouble();
+
+            if (numList[count] < 0)
+                break;
+
             count++;
-        } while (numList[count] > 0);
+        }
 
         System.out.println(count);
 
