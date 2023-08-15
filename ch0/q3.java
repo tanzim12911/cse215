@@ -28,7 +28,7 @@ public class q3 {
 
             if (count != 0)
             {
-                System.out.printf("%d occurs %d %s\n" j, count, (count > 1) ? "times" : "time");
+                System.out.printf("%d occurs %d %s\n", j, count, (count > 1) ? "times" : "time");
             }
             
         }
