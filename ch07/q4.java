@@ -14,12 +14,16 @@ public class q4 {
             count++;
         } while (numList[count] > 0);
 
+        System.out.println(count);
+
         for (int i = 0; i < count + 1; i++)
         {
             sum += numList[i];
         }
 
         avg = sum / count;
+
+        System.out.println(avg);
 
         for (int i = 0; i < count + 1; i++)
         {
