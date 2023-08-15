@@ -25,7 +25,7 @@ public class q4 {
             System.out.println(numList[i]);
         }
 
-        for (int i = 0; i < count + 1; i++)
+        for (int i = 0; i < count; i++)
         {
             sum += numList[i];
         }
