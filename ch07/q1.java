@@ -9,7 +9,7 @@ public class q1 {
         int stuNum = sc.nextInt();
 
         int [] numList = new int[stuNum];
-        char [] gradeList = new int[stuNum];
+        char [] gradeList = new char[stuNum];
         int maxNum = 0;
 
         System.out.print("Enter " + stuNum + "scores: ");
