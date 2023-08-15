@@ -22,7 +22,7 @@ public class q3 {
         {
             for (int k = 0; k < numList.length - 1; k++) 
             {
-                if (j == numList[k])
+                if (numList[k] == j)
                     count++;
             }
 
