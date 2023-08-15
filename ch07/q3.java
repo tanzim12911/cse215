@@ -18,9 +18,9 @@ public class q3 {
             i++;
         }
 
-        for (int j = 0; j < numList.length; j++) 
+        for (int j = 0; j < i; j++) 
         {
-            for (int k = 1; j < numList.length; k++) 
+            for (int k = 1; j < i; k++) 
             {
                 if (numList[j] == numList[k])
                     count++;
