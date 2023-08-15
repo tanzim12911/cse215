@@ -18,7 +18,13 @@ public class q3 {
             i++;
         }
 
-        java.util.Arrays.sort(numList);
+        for (int j = 0; j < i; j++) 
+        {
+            for (int k = j + 1; k < i; k++) 
+            {
+                if (numListUnq[j] == numList[k])
+                    count++;
+            }
 
         for (int j = 0; j < i; j++) 
         {

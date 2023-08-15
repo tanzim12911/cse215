@@ -1,28 +1,39 @@
+package ch_07;
+
 import java.util.Scanner;
 
-public class test {
+/**
+ * *7.3 (Count occurrence of numbers) Write a program that reads the integers between 1
+ * and 100 and counts the occurrences of each. Assume the input ends with 0.
+ */
+public class Exercise07_03 {
     public static void main(String[] args) {
-        String stuName, stuNameHighest = "";
-        int stuScore, stuScoreHighest = 0;
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the number of students: ");
-        int num = sc.nextInt();
-        sc.nextLine(); // Consume the newline character after reading num
+        Scanner input = new Scanner(System.in);
 
-        for (int i = 1; i <= num; i++) {
-            System.out.print("Enter Name of Student " + i + ": ");
-            stuName = sc.nextLine();
-
-            System.out.print("Enter Score of Student " + i + ": ");
-            stuScore = sc.nextInt();
-            sc.nextLine(); // Consume the newline character after reading score
-
-            if (stuScore > stuScoreHighest) {
-                stuScoreHighest = stuScore;
-                stuNameHighest = stuName;
-            }
+        int[] nums = new int[100];
+        int temp;
+        int count = 0;
+        System.out.print("Enter the integers between 1 and 100: ");
+        do {
+            temp = input.nextInt();
+            nums[count] = temp;
+            count++;
         }
+        while (temp != 0);
 
-        System.out.println("Name of the Highest Scorer: " + stuNameHighest);
+        countOccurrences(nums);
+    }
+
+    public static void countOccurrences(int[] list) {
+        for (int i = 1; i <= 100; i++) {
+            int count = 0;
+            for (int j = 0; j < list.length - 1; j++) {
+                if (list[j] == i)
+                    count += 1;
+            }
+            if (count != 0)
+                System.out.printf("%d occurs %d %s%n",
+                        i, count, count > 1 ? "times" : "time");
+        }
     }
 }
