@@ -20,7 +20,7 @@ public class q4 {
         }
 
         System.out.println(count);
-        for (int i = 0; i < count + 1; i++)
+        for (int i = 0; i < count; i++)
         {
             System.out.println(numList[i]);
         }
