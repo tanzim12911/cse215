@@ -19,20 +19,12 @@ public class q4 {
             count++;
         }
 
-        System.out.println(count);
-        for (int i = 0; i < count; i++)
-        {
-            System.out.println(numList[i]);
-        }
-
         for (int i = 0; i < count; i++)
         {
             sum += numList[i];
         }
 
         avg = sum / count;
-
-        System.out.println(avg);
 
         for (int i = 0; i < count + 1; i++)
         {
