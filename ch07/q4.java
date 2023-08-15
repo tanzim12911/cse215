@@ -20,6 +20,10 @@ public class q4 {
         }
 
         System.out.println(count);
+        for (int i = 0; i < count + 1; i++)
+        {
+            System.out.println(numList[i]);
+        }
 
         for (int i = 0; i < count + 1; i++)
         {
