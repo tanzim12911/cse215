@@ -19,9 +19,12 @@ public class test {
         }
         while (temp != 0);
 
+        System.out.println(nums.length);
+
         countOccurrences(nums);
     }
 
+    
     public static void countOccurrences(int[] list) {
         for (int i = 1; i <= 100; i++) {
             int count = 0;
