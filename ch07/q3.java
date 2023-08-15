@@ -27,9 +27,9 @@ public class q3 {
             }
             
             if (count > 1)
-                System.out.println(numList[j] + " occurs " + count + " times");
+                System.out.println(numList[j] + " occurs " + (count + 1) + " times");
             else   
-              System.out.println(numList[j] + " occurs " + count + " time");
+              System.out.println(numList[j] + " occurs " + (count + 1) + " time");
             
             count = 0;
         }
