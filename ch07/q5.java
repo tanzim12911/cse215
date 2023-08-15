@@ -12,7 +12,7 @@ public class q5 {
         for (int i = 0; i < 10; i++)
         {
             int temp = sc.nextInt();
-            for (int j = 9; j >= 0; j--)
+            for (int j = 0; j < 10; j++)
             {
                 if (temp != numList[j]) {
                     numList[i] = temp;
