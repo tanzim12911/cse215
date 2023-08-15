@@ -18,28 +18,19 @@ public class q3 {
             i++;
         }
 
-        for (int j = 0; j < i; j++) 
+        for (int j = 1; j <= 100; j++) 
         {
-            for (int k = j + 1; k < i; k++) 
+            for (int k = 0; k < i; k++) 
             {
-                if (numListUnq[j] == numList[k])
+                if (j == numList[k])
                     count++;
             }
 
-        for (int j = 0; j < i; j++) 
-        {
-            for (int k = j + 1; k < i; k++) 
+            if (count != 0)
             {
-                if (numList[j] == numList[k])
-                    count++;
+                System.out.printf("%d occurs %d %s\n" j, count, (count > 1) ? "times" : "time");
             }
             
-            if (count > 1)
-                System.out.println(numList[j] + " occurs " + (count + 1) + " times");
-            else   
-              System.out.println(numList[j] + " occurs " + (count + 1) + " time");
-            
-            count = 0;
         }
         
     }
