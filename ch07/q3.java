@@ -24,12 +24,13 @@ public class q3 {
             {
                 if (numList[j] == numList[k])
                     count++;
-                
-                if (count > 1)
-                    System.out.println(numList[j] + " occurs " + count + " times");
-                else   
-                  System.out.println(numList[j] + " occurs " + count + " time");
             }
+            
+            if (count > 1)
+                System.out.println(numList[j] + " occurs " + count + " times");
+            else   
+              System.out.println(numList[j] + " occurs " + count + " time");
+            
             count = 0;
         }
         
