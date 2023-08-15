@@ -1,5 +1,3 @@
-package ch_07;
-
 import java.util.Scanner;
 
 /**
