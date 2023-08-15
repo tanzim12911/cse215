@@ -26,7 +26,7 @@ public class q4 {
 
         avg = sum / count;
 
-        for (int i = 0; i < count + 1; i++)
+        for (int i = 0; i < count; i++)
         {
             if (numList[i] > avg)
                 countAbove++;
