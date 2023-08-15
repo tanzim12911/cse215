@@ -17,6 +17,7 @@ public class q3 {
                 break;  
             i++;
         }
+        System.out.println(i);
 
         for (int j = 1; j <= 100; j++) 
         {
