@@ -19,9 +19,8 @@ public class q13 {
 
         for (int i = 0; i < array.length; i++) {
             if (numRandom == array[i])
-                break;
+                return 0;
         }
-        getRandom(array);
         return numRandom;
     }
 }
