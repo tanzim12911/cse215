@@ -11,7 +11,7 @@ public class q13 {
         for (int i = 0; i < numList.length; i++ ) {
             numList[i] = sc.nextInt();
         }
-
+        System.out.print("Random number: " + getRandom(numList));
     }
 
     public static int getRandom(int[] array) {
