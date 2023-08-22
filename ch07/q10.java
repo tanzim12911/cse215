@@ -13,7 +13,7 @@ public class q10 {
         }
 
         if (numList.length > 1)
-            System.out.println("The minumum number is: " + min(numList));
+            System.out.println("The minumum number is: " + indexOfSmallestElement(numList));
         else
             System.out.println("Error: The number of element in the array is 1");
 
