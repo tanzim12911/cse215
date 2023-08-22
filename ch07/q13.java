@@ -15,11 +15,12 @@ public class q13 {
     }
 
     public static int getRandom(int[] array) {
-        int numRandom = (int) (1 + Math.random() * 53);
+        int numRandom = 0;
 
         for (int i = 0; i < array.length; i++) {
+            numRandom = (int) (1 + Math.random() * 53);
             if (numRandom == array[i])
-                return 0;
+                continue;
         }
         return numRandom;
     }
