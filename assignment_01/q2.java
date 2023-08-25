@@ -23,10 +23,8 @@ public class q2 {
         }
         System.out.println("Sums of the elements in the major diagonal is " + sumMajor);
 
-        for (int i = 0; i < 5; i++) {
-            for (int j = 4; j >= 0; j--) {
+        for (int i = 0, j = 4; i < 5; i++, j--) {
                 sumMinor += mat[i][j];
-            }
         }
         System.out.println("Sums of the elements in the minor diagonal is " + sumMinor);
     }
