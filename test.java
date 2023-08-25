@@ -1,40 +1,54 @@
+package assignment_01;
+
 import java.util.Scanner;
 
-/**
- * *7.3 (Count occurrence of numbers) Write a program that reads the integers between 1
- * and 100 and counts the occurrences of each. Assume the input ends with 0.
- */
-public class test {
+public class q3 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-
-        int[] nums = new int[100];
-        int temp;
-        int count = 0;
-        System.out.print("Enter the integers between 1 and 100: ");
-        do {
-            temp = input.nextInt();
-            nums[count] = temp;
-            count++;
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.print("Enter the number of courses: ");
+        int courseNum = sc.nextInt();
+        sc.nextLine(); // Consume the newline
+        
+        String[] gradeList = new String[courseNum];
+        System.out.print("Enter your grades: ");
+        for (int i = 0; i < courseNum; i++) {
+            gradeList[i] = sc.nextLine();
         }
-        while (temp != 0);
+        
+        double cgpa = gpaFall2022(courseNum, gradeList);
 
-        System.out.println(nums.length);
-
-        countOccurrences(nums);
+        System.out.println("Your GPA for FALL2022 is " + cgpa);
     }
 
-    
-    public static void countOccurrences(int[] list) {
-        for (int i = 1; i <= 100; i++) {
-            int count = 0;
-            for (int j = 0; j < list.length - 1; j++) {
-                if (list[j] == i)
-                    count += 1;
-            }
-            if (count != 0)
-                System.out.printf("%d occurs %d %s%n",
-                        i, count, count > 1 ? "times" : "time");
+    static double gpaFall2022(int noOfCourses, String[] grade) {
+        double total_gpa = 0;
+        
+        for (int i = 0; i < grade.length; i++) {
+            if (grade[i].equals("A"))
+                total_gpa += 4.0;
+            else if (grade[i].equals("A-"))
+                total_gpa += 3.7;
+            else if (grade[i].equals("B+"))
+                total_gpa += 3.3;
+            else if (grade[i].equals("B"))
+                total_gpa += 3.0;
+            else if (grade[i].equals("B-"))
+                total_gpa += 2.7;
+            else if (grade[i].equals("C+"))
+                total_gpa += 2.3;
+            else if (grade[i].equals("C"))
+                total_gpa += 2.0;
+            else if (grade[i].equals("C-"))
+                total_gpa += 1.7;
+            else if (grade[i].equals("D+"))
+                total_gpa += 1.3;
+            else if (grade[i].equals("D"))
+                total_gpa += 1.0;
+            else
+                total_gpa += 0.0;
         }
+
+        return (total_gpa / noOfCourses);
     }
 }
