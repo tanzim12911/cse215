@@ -44,7 +44,7 @@ public class q3 {
             else if (grade[i].equals("C-"))
                 total_gpa += 1.7;
             else if (grade[i].equals("D+"))
-                total_gpa = 1.3;
+                total_gpa += 1.3;
             else if (grade[i].equals("D"))
                 total_gpa += 1.0;
             else
