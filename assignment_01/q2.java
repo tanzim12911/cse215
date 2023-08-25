@@ -18,7 +18,7 @@ public class q2 {
 
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j < 5; j++) {
-                mat[i][j] = sc.nextInt();
+                System.out.print(mat[i][j] + " ");
             }
             System.out.println();
         }
