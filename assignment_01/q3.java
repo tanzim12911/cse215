@@ -8,6 +8,7 @@ public class q3 {
         
         System.out.print("Enter the number of courses: ");
         int courseNum = sc.nextInt();
+        sc.nextLine();
         
         String[] gradeList = new String[courseNum];
         System.out.print("Enter your grades: ");
