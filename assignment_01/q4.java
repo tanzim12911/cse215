@@ -18,7 +18,7 @@ public class q4 {
 
     static boolean isValidPassword(String password) {
 
-        boolean status;
+        boolean status = false;
         
         if (password.length() >= 6) 
         {
