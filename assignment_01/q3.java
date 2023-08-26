@@ -27,28 +27,38 @@ public class q3 {
         double total_gpa = 0;
         
         for (int i = 0; i < grade.length; i++) {
-            if (grade[i].equals("A"))
-                total_gpa += 4.0;
-            else if (grade[i].equals("A-"))
-                total_gpa += 3.7;
-            else if (grade[i].equals("B+"))
-                total_gpa += 3.3;
-            else if (grade[i].equals("B"))
-                total_gpa += 3.0;
-            else if (grade[i].equals("B-"))
-                total_gpa += 2.7;
-            else if (grade[i].equals("C+"))
-                total_gpa += 2.3;
-            else if (grade[i].equals("C"))
-                total_gpa += 2.0;
-            else if (grade[i].equals("C-"))
-                total_gpa += 1.7;
-            else if (grade[i].equals("D+"))
-                total_gpa += 1.3;
-            else if (grade[i].equals("D"))
-                total_gpa += 1.0;
-            else
-                total_gpa += 0.0;
+            switch (grade[i]) {
+                case "A":
+                    total_gpa += 4.0;
+                    break;
+                case "A-":
+                    total_gpa += 3.7;
+                    break;
+                case "B+":
+                    total_gpa += 3.3;
+                    break;
+                case "B":
+                    total_gpa += 3.0;
+                    break;
+                case "C+":
+                    total_gpa += 2.7;
+                    break;
+                case "C-":
+                    total_gpa += 1.7;
+                    break;
+                case "D+":
+                    total_gpa += 1.3;
+                    break;
+                case "D":
+                    total_gpa += 1.0;
+                    break;
+                case "F":
+                    total_gpa += 0.0;
+                    break;
+                
+                default:
+                    break;
+            }
         }
 
 
