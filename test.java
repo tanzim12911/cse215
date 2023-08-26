@@ -7,25 +7,25 @@ public class test {
         Scanner sc = new Scanner(System.in);
         
         System.out.print("Enter the number of courses: ");
-        int noOfCourses = sc.nextInt();
+        int courseNum = sc.nextInt();
         sc.nextLine();
         
-        String[] gradeList = new String[noOfCourses];
-        System.out.println("Enter your grades: ");
-        for (int i = 0; i < noOfCourses; i++) {
+        String[] gradeList = new String[courseNum];
+        System.out.print("Enter your grades: ");
+        for (int i = 0; i < courseNum; i++) {
             gradeList[i] = sc.nextLine();
         }
         
-        double cgpa = gpaFall2022(noOfCourses, gradeList);
+        System.out.println(courseNum);
+        
+        double cgpa = gpaFall2022(courseNum, gradeList);
 
-        if (Double.isNaN(cgpa)) {
-            System.out.println("No courses to calculate GPA.");
-        } else {
-            System.out.println("Your GPA for FALL2022 is " + cgpa);
-        }
+        System.out.println("Your GPA for FALL2022 is " + cgpa);
+
     }
 
     static double gpaFall2022(int noOfCourses, String[] grade) {
+        
         double total_gpa = 0;
         
         for (int i = 0; i < grade.length; i++) {
@@ -57,11 +57,9 @@ public class test {
                 case "F":
                     total_gpa += 0.0;
                     break;
-                default:
-                    System.out.println("Invalid grade entered.");
-                    break;
             }
         }
+
 
         return (total_gpa / noOfCourses);
     }
