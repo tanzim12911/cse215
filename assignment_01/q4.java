@@ -10,7 +10,7 @@ public class q4 {
 
         boolean status = isValidPassword(pass);
 
-        if (status)
+        if (status == true)
             System.out.println("Password is Valid");
         else
             System.out.println("Password is invalid");
