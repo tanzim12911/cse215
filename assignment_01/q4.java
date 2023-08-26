@@ -8,7 +8,7 @@ public class q4 {
         System.out.print("Enter your password: ");
         String pass = sc.nextLine();
 
-        boolean status = ;
+        boolean status = isValidPassword(pass);
 
         if (status)
             System.out.println("Password is Valid");
@@ -17,7 +17,7 @@ public class q4 {
     }
 
     static boolean isValidPassword(String password) {
-        char last_char = password.charAt(password.length() - 1);
+
         if (password.length() >= 6) 
         {
             if (java.lang.Character.isDigit(password.charAt(password.length() - 1)))
@@ -31,7 +31,7 @@ public class q4 {
                 }
             }
         }
-        else
-            return false;
+        
+        return false;
     }
 } 
