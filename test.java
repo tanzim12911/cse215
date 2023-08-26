@@ -1,3 +1,5 @@
+
+
 import java.util.Scanner;
 
 public class test {
@@ -5,16 +7,16 @@ public class test {
         Scanner sc = new Scanner(System.in);
         
         System.out.print("Enter the number of courses: ");
-        int courseNum = sc.nextInt();
+        int noOfCourses = sc.nextInt();
         sc.nextLine();
         
-        String[] gradeList = new String[courseNum];
+        String[] gradeList = new String[noOfCourses];
         System.out.println("Enter your grades: ");
-        for (int i = 0; i < courseNum; i++) {
+        for (int i = 0; i < noOfCourses; i++) {
             gradeList[i] = sc.nextLine();
         }
         
-        double cgpa = gpaFall2022(courseNum, gradeList);
+        double cgpa = gpaFall2022(noOfCourses, gradeList);
 
         if (Double.isNaN(cgpa)) {
             System.out.println("No courses to calculate GPA.");
@@ -24,10 +26,6 @@ public class test {
     }
 
     static double gpaFall2022(int noOfCourses, String[] grade) {
-        if (noOfCourses <= 0) {
-            return Double.NaN;
-        }
-        
         double total_gpa = 0;
         
         for (int i = 0; i < grade.length; i++) {
@@ -60,6 +58,7 @@ public class test {
                     total_gpa += 0.0;
                     break;
                 default:
+                    System.out.println("Invalid grade entered.");
                     break;
             }
         }
