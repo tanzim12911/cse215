@@ -31,7 +31,7 @@ public class q4 {
                 }
             }
         }
-        
-        return false;
+        else
+            return false;
     }
 } 
