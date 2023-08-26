@@ -18,6 +18,8 @@ public class q4 {
 
     static boolean isValidPassword(String password) {
 
+        boolean status;
+        
         if (password.length() >= 6) 
         {
             if (java.lang.Character.isDigit(password.charAt(password.length() - 1)))
@@ -26,12 +28,14 @@ public class q4 {
                 {
                     if (java.lang.Character.isLetter(i)) 
                     {
-                        return true;
+                        status = true;
                     }
                 }
             }
         }
         else
-            return false;
+            status = false;
+        
+        return status;
     }
 } 
