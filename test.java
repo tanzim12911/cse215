@@ -9,7 +9,7 @@ import java.util.Scanner;
  * Write a test program that reads in ten integers, invokes the method,
  * and displays the numbers separated by exactly one space.
  */
-public class Exercise07_15 {
+public class test {
 
     public static int[] eliminateDuplicates(int[] list) {
         int[] list2 = new int[list.length];
