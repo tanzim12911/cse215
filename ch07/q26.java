@@ -23,6 +23,12 @@ public class q26 {
             list2[i] = sc.nextInt();
         }
 
+        boolean status = equals(list1, list2);
+
+        if(status)
+            System.out.println("Two lists are strictly identical");
+        else
+            System.out.println("Two lists are not strictly identical");
 
         
     }
