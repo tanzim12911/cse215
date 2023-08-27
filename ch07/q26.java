@@ -46,12 +46,12 @@ public class q26 {
         if (list1.length != list2.length)
             status = false;
         
-            for (int i = 1; i < list1.length; i++) {
-                if (list1[i] == list2[i])
-                    status = true;
+        for (int i = 1; i < list1.length; i++) {
+            if (list1[i] == list2[i])
+                status = true;
+            else
+                status = false;
         }
-        else
-            status = false;
 
         return status;
     }
