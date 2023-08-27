@@ -1,0 +1,35 @@
+package ch07;
+
+import java.util.Scanner;
+
+public class q19 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter list: ");
+        int size = sc.nextInt();
+        int[] array = new int[size + 1];
+        array[0] = size;
+
+        for (int i = 1; i < array.length; i++) {
+            array[i] = sc.nextInt();
+        }
+
+
+
+    }
+
+    public static boolean isSorted(int[] list) {
+        boolean status = false;
+
+        for (int i = 1; i < list.length; i++) {
+                if (list[i] > list[i + 1])
+                    status = false;
+                else   
+                    status = true;
+        }
+
+        return status;
+    }
+
+
+}
