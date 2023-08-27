@@ -50,6 +50,8 @@ public class q26 {
                 if (list1[i] == list2[i])
                     status = true;
         }
+        else
+            status = false;
 
         return status;
     }
