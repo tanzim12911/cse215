@@ -20,16 +20,23 @@ public class q15 {
 
     public static int[] eliminateDuplicates(int[] list) {
         int[] temp = new int[list.length];
+        
         java.util.Arrays.sort(list);
-
-        for (int i = 0, j = 0; i < list.length - 1; i++) {
+        int x = 0;
+        for (int i = 0; i < list.length - 1; i++) {
             if (list[i] != list[i + 1]) {
-                temp[j] = list[i];
-                j++;
+                temp[x] = list[i];
+                x++;
             }
         }
 
-        return temp;
+        int[] result = new int[x];
+
+        for (int i = 0; i < x; i++) {
+            result[i] = temp[i];
+        }
+
+        return result;
     }
 
 }
