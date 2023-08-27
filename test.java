@@ -18,4 +18,5 @@ public class test {
         for (int i = 0; i < courseNum; i++) {
             System.out.println(gradeList[i] + " ");
         }
+    }
 }
