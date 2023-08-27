@@ -23,6 +23,7 @@ public class q26 {
             list2[i] = sc.nextInt();
         }
 
+        System.out.println(size1 + " " + size2;
         for (int i = 0; i < size1; i++) {
             System.out.print(list1[i] + " ");
         }
