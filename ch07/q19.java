@@ -27,7 +27,7 @@ public class q19 {
     public static boolean isSorted(int[] list) {
         boolean status = false;
 
-        for (int i = 1; i < list.length; i++) {
+        for (int i = 1; i < list.length - 1; i++) {
                 if (list[i] > list[i + 1])
                     status = false;
                 else   
