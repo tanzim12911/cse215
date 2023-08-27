@@ -23,6 +23,11 @@ public class q26 {
             list2[i] = sc.nextInt();
         }
 
+        for (int i = 0; i < size1; i++) {
+            System.out.print(list1[i] + " ");
+        }
+        
+
         boolean status = equals(list1, list2);
 
         if(status)
@@ -40,8 +45,8 @@ public class q26 {
             status = false;
         
             for (int i = 1; i < list1.length; i++) {
-            if (list1[i] == list2[i])
-                status = true;
+                if (list1[i] == list2[i])
+                    status = true;
         }
 
         return status;
