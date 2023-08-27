@@ -15,6 +15,10 @@ public class q3 {
         for (int i = 0; i < courseNum; i++) {
             gradeList[i] = sc.nextLine();
         }
+        for (int i = 0; i < courseNum; i++) {
+            System.out.println(gradeList[i] + " ");
+        }
+
         
         System.out.println(courseNum);
         
