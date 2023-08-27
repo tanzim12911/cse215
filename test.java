@@ -10,7 +10,7 @@ public class test {
         String[] gradeList = new String[4];
         System.out.print("Enter your grades: ");
         for (int i = 0; i < 4; i++) {
-            gradeList[i] = sc.nextLine();
+            gradeList[i] = sc.next();
         }
         for (int i = 0; i < 4; i++) {
             System.out.println(gradeList[i]);
