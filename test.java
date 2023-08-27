@@ -11,6 +11,7 @@ public class test {
         System.out.print("Enter your grades: ");
         for (int i = 0; i < 4; i++) {
             gradeList[i] = sc.nextLine();
+            sc.nextLine();
         }
         for (int i = 0; i < 4; i++) {
             System.out.println(gradeList[i]);
