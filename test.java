@@ -7,7 +7,7 @@ public class test {
         System.out.print("Enter the number of courses: ");
 
         
-        String[] gradeList = new String[courseNum];
+        String[] gradeList = new String[4];
         System.out.print("Enter your grades: ");
         for (int i = 0; i < courseNum; i++) {
             gradeList[i] = sc.nextLine();
