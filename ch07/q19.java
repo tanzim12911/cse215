@@ -13,7 +13,13 @@ public class q19 {
         for (int i = 1; i < array.length; i++) {
             array[i] = sc.nextInt();
         }
+        
+        boolean status = isSorted(array);
 
+        if (status)
+            System.out.println("The list is already sorted");
+        else
+            System.out.println("The list is not sorted");
 
 
     }
