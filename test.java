@@ -4,7 +4,7 @@ public class test {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        System.out.print("Enter the number of courses: ");
+        
 
         
         String[] gradeList = new String[4];
