@@ -1,14 +1,12 @@
-
-
 import java.util.Scanner;
 
-public class test {
+public class Test {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
         System.out.print("Enter the number of courses: ");
         int courseNum = sc.nextInt();
-        sc.nextLine();
+        sc.nextLine(); // Consume the newline character
         
         String[] gradeList = new String[courseNum];
         System.out.print("Enter your grades: ");
@@ -16,7 +14,7 @@ public class test {
             gradeList[i] = sc.nextLine();
         }
         for (int i = 0; i < courseNum; i++) {
-            System.out.println(gradeList[i] + " ");
+            System.out.println(gradeList[i]);
         }
     }
 }
