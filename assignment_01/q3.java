@@ -40,8 +40,14 @@ public class q3 {
                 case "B":
                     total_gpa += 3.0;
                     break;
-                case "C+":
+                case "B-":
                     total_gpa += 2.7;
+                    break;
+                case "C+":
+                    total_gpa += 2.3;
+                    break;
+                case "C":
+                    total_gpa += 2.0;
                     break;
                 case "C-":
                     total_gpa += 1.7;
