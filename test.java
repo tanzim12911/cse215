@@ -5,8 +5,8 @@ public class test {
         Scanner sc = new Scanner(System.in);
         
         System.out.print("Enter the number of courses: ");
-        int courseNum = sc.nextInt();
-        sc.nextLine(); // Consume the newline character
+        //int courseNum = sc.nextInt();
+        //sc.nextLine(); // Consume the newline character
         
         String[] gradeList = new String[courseNum];
         System.out.print("Enter your grades: ");
