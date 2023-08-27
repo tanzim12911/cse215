@@ -16,9 +16,6 @@ public class q3 {
             gradeList[i] = sc.next();
         }
         
-        
-        System.out.println(courseNum);
-        
         double cgpa = gpaFall2022(courseNum, gradeList);
 
         System.out.println("Your GPA for FALL2022 is " + cgpa);
