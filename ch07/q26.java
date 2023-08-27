@@ -23,13 +23,6 @@ public class q26 {
             list2[i] = sc.nextInt();
         }
 
-        System.out.println(list1.length + " " + list2.length);
-        System.out.println(size1 + " " + size2);
-        for (int i = 0; i < list1.length; i++) {
-            System.out.print(list1[i] + " ");
-        }
-        
-
         boolean status = equals(list1, list2);
 
         if(status)
