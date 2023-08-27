@@ -25,7 +25,7 @@ public class q26 {
 
         System.out.println(list1.length + " " + list2.length);
         System.out.println(size1 + " " + size2);
-        for (int i = 0; i < size1; i++) {
+        for (int i = 0; i < list1.length; i++) {
             System.out.print(list1[i] + " ");
         }
         
