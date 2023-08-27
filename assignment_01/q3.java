@@ -57,9 +57,6 @@ public class q3 {
                 case "F":
                     total_gpa += 0.0;
                     break;
-                
-                default:
-                    break;
             }
         }
 
