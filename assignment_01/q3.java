@@ -13,7 +13,7 @@ public class q3 {
         String[] gradeList = new String[courseNum];
         System.out.print("Enter your grades: ");
         for (int i = 0; i < courseNum; i++) {
-            gradeList[i] = sc.nextLine();
+            gradeList[i] = sc.next();
         }
         
         
