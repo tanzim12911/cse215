@@ -34,6 +34,15 @@ public class test {
             finishedArray[i] = list2[i];
         }
 
+        switch (key) {
+            case value:
+                
+                break;
+        
+            default:
+                break;
+        }
+
         return finishedArray;
     }
 
