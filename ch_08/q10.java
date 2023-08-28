@@ -36,7 +36,7 @@ public class q10 {
         }
 
         for (int i = 0; i < row_sum.length - 1; i++) {
-            if (row_sum[i] < row_sum[i + 1] && row_sum[i] != row_sum[i + 1])
+            if (row_sum[i] < row_sum[i + 1])
                 row_index = i + 1;
         }
 
