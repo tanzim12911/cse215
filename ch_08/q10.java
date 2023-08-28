@@ -30,8 +30,8 @@ public class q10 {
 
         for (int i = 0; i < 4; i++) {
                 row_sum = mat[i][0] + mat[i][1] + mat[i][2] + mat[i][3];
-            if (row_sum_Large < col_sum) {
-                row_sum_Large = col_sum;
+            if (row_sum_Large < row_sum) {
+                row_sum_Large = row_sum;
                 row_index = i;
             }
         }
