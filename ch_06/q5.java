@@ -17,6 +17,6 @@ public class q5 {
         double temp = (num1 > num1) ? num1 : num2;
         double max = (temp > num3) ? temp : num3;
 
-        System.out.println(max + temp + (num1 + num2 + num3 - max - temp));
+        System.out.println(max + " " + temp + " " + (num1 + num2 + num3 - max - temp));
     }
 }
