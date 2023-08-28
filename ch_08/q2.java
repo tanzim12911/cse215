@@ -7,7 +7,7 @@ public class q2 {
         Scanner sc = new Scanner(System.in);
         double[][] mat = new double[4][4];
         System.out.println("Enter a 4-by-4 matrix row by row: ");
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 4; i++) {
             for (int j =0; j < 4; j++) {
                 mat[i][j] = sc.nextDouble();
             }
