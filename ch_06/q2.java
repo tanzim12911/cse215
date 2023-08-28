@@ -11,11 +11,14 @@ public class q2 {
     }
 
     public static int sumDigits(long n) {
-        long sum = 0;
-        long temp = n % 10;
-        sum += temp;
-        n /= 10;
+        int sum = 0;
+        int num = (int) n;
+        while (n != 0) {
+            int temp = num % 10;
+            sum += temp;
+            num /= 10;
+        }
         
-        return (int) sum;
+        return sum;
     }
 }
