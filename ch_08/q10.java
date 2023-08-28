@@ -12,32 +12,32 @@ public class q10 {
             System.out.println();    
         }
     
-        int[] col_sum = new int[4];
+        int col_sum_Large = mat[0][0] + mat[1][0] + mat[2][0] + mat[3][0];
+        int col_sum = 0;
         int col_index = 0;
 
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 4; j++) {
-                col_sum[i] += mat[j][i];
-            }    
-        }
-
-        for (int i = 0; i < col_sum.length - 1; i++) {
-            if (col_sum[i] < col_sum[i + 1])
-                col_index = i + 1;
+                col_sum += mat[j][i];
+            }
+            if (col_sum_Large < col_sum) {
+                col_sum_Large = col_sum;
+                col_index = i;
+            }
         }
         
-        int[] row_sum = new int[4];
+        int row_sum_Large = mat[0][1] + mat[0][2] + mat[0][3];
+        int row_sum = 0;
         int row_index = 0;
 
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 4; j++) {
-                row_sum[i] += mat[i][j];
-            }    
-        }
-
-        for (int i = 0; i < row_sum.length - 1; i++) {
-            if (row_sum[i] < row_sum[i + 1])
-                row_index = i + 1;
+                row_sum += mat[i][j];
+            }
+            if (row_sum_Large < row_sum) {
+                row_sum_Large = row_sum;
+                row_index = i;
+            }
         }
 
         System.out.println("The largest row index: " + row_index);
