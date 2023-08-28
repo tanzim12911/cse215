@@ -10,7 +10,7 @@ public class q5 {
         int num2 = sc.nextInt();
         int num3 = sc.nextInt();
 
-
+        displaySortedNumbers(num1, num2, num3);
     }
 
     public static void displaySortedNumbers(double num1, double num2, double num3) {
