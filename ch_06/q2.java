@@ -13,7 +13,7 @@ public class q2 {
     public static int sumDigits(long n) {
         int sum = 0;
         int num = (int) n;
-        while (n != 0) {
+        while (num != 0) {
             int temp = num % 10;
             sum += temp;
             num /= 10;
