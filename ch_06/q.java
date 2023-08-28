@@ -2,13 +2,13 @@ package ch_06;
 
 public class q {
     public static void main(String[] args) {
-        int count = 1;
+        int count = 0;
         for (int i = 1; i <= 100; i++) {
             System.out.print(getPentagonalNumber(i) + " ");
             count++;
             if (count == 10) {
                 System.out.println();
-                count = 1;
+                count = 0;
             }
         }
     }
