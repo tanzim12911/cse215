@@ -21,7 +21,7 @@ public class q10 {
             }    
         }
 
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < col_sum.length - 1; i++) {
             if (col_sum[i] < col_sum[i + 1])
                 col_index = i + 1;
         }
@@ -35,7 +35,7 @@ public class q10 {
             }    
         }
 
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < row_sum.length - 1; i++) {
             if (row_sum[i] < row_sum[i + 1])
                 row_index = i + 1;
         }
