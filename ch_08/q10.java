@@ -17,9 +17,7 @@ public class q10 {
         int col_index = 0;
 
         for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 4; j++) {
-                col_sum += mat[j][i];
-            }
+                col_sum = mat[0][i] + mat[1][i] + mat[2][i] + mat[3][i];
             if (col_sum_Large < col_sum) {
                 col_sum_Large = col_sum;
                 col_index = i;
@@ -31,11 +29,9 @@ public class q10 {
         int row_index = 0;
 
         for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 4; j++) {
-                row_sum += mat[i][j];
-            }
-            if (row_sum_Large < row_sum) {
-                row_sum_Large = row_sum;
+                row_sum = mat[i][0] + mat[i][1] + mat[i][2] + mat[i][3];
+            if (row_sum_Large < col_sum) {
+                row_sum_Large = col_sum;
                 row_index = i;
             }
         }
