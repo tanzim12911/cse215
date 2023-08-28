@@ -23,6 +23,7 @@ public class q5 {
 
         double[][] result = addMatrix(mat1, mat2);
 
+        System.out.println("The matrices are added as follows: ");
         for (int i = 0; i < result.length; i++) {
             for (int j = 0; j < result.length; j++) {
                 System.out.print(result[i][j] + " ");
