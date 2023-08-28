@@ -25,7 +25,7 @@ public class q30 {
         boolean status = false;
 
         for (int i = 0; i < values.length; i++) {
-            for (int j = 1; j < 4; j++) {
+            for (int j = 1; j < 3; j++) {
                 if (values[i] == values[j])
                     status = true;
                 else
