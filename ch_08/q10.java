@@ -6,7 +6,7 @@ public class q10 {
 
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 4; j++) {
-                mat[i][j] = (int) (Math.random());
+                mat[i][j] = (int) (Math.random() * 2);
                 System.out.print(mat[i][j] + " ");
             }
             System.out.println();    
