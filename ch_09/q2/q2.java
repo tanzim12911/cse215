@@ -6,6 +6,6 @@ public class q2 {
         stock1.previousClosingPrice = 34.5;
         stock1.currentPrice = 34.35;
 
-        System.out.println("Price-change percentage: ");
+        System.out.println("Price-change percentage: " + stock1.getChangePercent());
     }
 }
