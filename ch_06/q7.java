@@ -10,6 +10,8 @@ public class q7 {
         System.out.print("Enter interest rate: ");
         double interest = sc.nextDouble();
 
+        System.out.println(futureInvestmentValue(amount, interest, 5));
+
         System.out.println("Years           Future value");
         for (int i = 1; i <= 30; i++) {
             System.out.println(i + "            " + futureInvestmentValue(amount, interest, i));
