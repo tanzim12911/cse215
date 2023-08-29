@@ -6,7 +6,7 @@ public class q17 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter n: ");
-
+        printMatrix(sc.nextInt());
     }
 
     public static void printMatrix(int n) {
