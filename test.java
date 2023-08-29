@@ -14,6 +14,6 @@ public class test {
         for (int i = 1; i <= n; i++) {
             m += Math.pow(-1, i + 1) / (2.0 * i - 1);
         }
-        return m;
+        return 4 * m;
     }
 }
