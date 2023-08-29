@@ -9,7 +9,7 @@ public class q8 {
         double celsius = 40.0;
         double fahrenheit = 120.0;
         for (int i = 0; i < 10; i++) {
-            System.out.println(celsius + "        " + celsiusToFahrenheit(celsius) + "         " + fahrenheit + "        " + fahrenheitToCelsius(fahrenheit));
+            System.out.println(celsius + "        " + celsiusToFahrenheit(celsius) + "                  " + fahrenheit + "        " + fahrenheitToCelsius(fahrenheit));
             celsius--;
             fahrenheit -= 10;
         }
