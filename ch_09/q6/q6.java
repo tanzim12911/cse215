@@ -14,10 +14,12 @@ public class q6 {
         StopWatch watch = new StopWatch();
 
         watch.start();
+        System.out.println("Start time: " + watch.getStartTime() + " ms");
 
         selectionSort(array);
 
         watch.stop();
+        System.out.println("Start time: " + watch.getEndTime() + " ms");
 
         System.out.println("Execution time in ms: " + watch.getElaspedTime());
         
