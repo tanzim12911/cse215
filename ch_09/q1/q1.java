@@ -3,7 +3,7 @@ package ch_09.q1;
 public class q1 {
     public static void main(String[] args) {
         Rectangle rec1 = new Rectangle(4, 40);
-        Rectangle rec2 = new Rectangle(3.5, 35.5);
+        Rectangle rec2 = new Rectangle(3.5, 35.9);
 
         System.out.println("Width R1: " + rec1.width);
         System.out.println("Height R1: " + rec1.height);
