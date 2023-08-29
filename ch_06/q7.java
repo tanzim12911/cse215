@@ -7,10 +7,10 @@ public class q7 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter investment amount: ");
         double amount = sc.nextDouble();
-        System.out.print("Enter interest rate: ");
-        double interest = sc.nextDouble();
+        System.out.print("Enter annual interest rate: ");
+        double interestAnnual = sc.nextDouble();
 
-        System.out.println(futureInvestmentValue(amount, interest, 5));
+        double interestMonthly = interestAnnual / 12;
 
         System.out.println("Years           Future value");
         for (int i = 1; i <= 30; i++) {
