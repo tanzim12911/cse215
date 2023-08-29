@@ -22,7 +22,7 @@ public class q10 {
             System.out.println("Root: " + eqn.getRoot1());
         }
         else {
-            System.out.println("The equation has no roots.");
+            System.out.println("The equation has no real roots.");
         }            
     }
 }
