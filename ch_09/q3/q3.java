@@ -7,7 +7,7 @@ public class q3 {
         
         for (long i = 10000; i <= 100000000000L; i *= 10) {
             Date date1 = new Date(i);
-            System.out.println("Elasped time since " + i + " is " + date1.toString());
+            System.out.println("Elasped time since " + i + " miliseconds is " + date1.toString());
         }
     }
 }
