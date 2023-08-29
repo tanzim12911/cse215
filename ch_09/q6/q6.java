@@ -21,7 +21,7 @@ public class q6 {
         watch.stop();
         System.out.println("End time: " + watch.getEndTime() + " ms");
 
-        System.out.println("Execution time in ms: " + watch.getElaspedTime());
+        System.out.println("Execution time: " + watch.getElaspedTime() + " ms");
         
     }
 
