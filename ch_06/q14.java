@@ -10,7 +10,7 @@ public class q14 {
     }
     
     public static double estimatePI(int i) {
-        double m = (double) Math.pow(-1, i + 1) / (2 * i - 1);
-        return 4 * m;
+        double m = (double) 4 * Math.pow(-1, i + 1) / (2 * i - 1);
+        return m;
     }
 }
