@@ -19,7 +19,7 @@ public class q6 {
         selectionSort(array);
 
         watch.stop();
-        System.out.println("Start time: " + watch.getEndTime() + " ms");
+        System.out.println("End time: " + watch.getEndTime() + " ms");
 
         System.out.println("Execution time in ms: " + watch.getElaspedTime());
         
