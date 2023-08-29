@@ -25,6 +25,6 @@ public class StopWatch {
     }
 
     public long getElaspedTime () {
-        return (startTime - endTime);
+        return (endTime - startTime);
     }
 }
