@@ -10,7 +10,8 @@ public class q13 {
     }
     
     public static double sumSeries(int i) {
-        return i / (i + 1);
+        double m = i / (i + 1);
+        return m;
     }
 }
 
