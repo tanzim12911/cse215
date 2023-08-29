@@ -9,8 +9,11 @@ public class q14 {
         }
     }
     
-    public static double estimatePI(int i) {
-        double m = 4.0 * Math.pow(-1, i + 1) / (2.0 * i - 1);
-        return m;
+    public static double estimatePI(int n) {
+        double m = 0;
+        for (int i = 1; i <= n; i++) {
+            m += Math.pow(-1, i + 1) / (2.0 * i - 1);
+        }
+        return 4 * m;
     }
 }
