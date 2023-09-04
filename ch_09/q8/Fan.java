@@ -36,7 +36,7 @@ public class Fan {
 
     public String toString() {
         String result;
-        if(on = true) {
+        if(on == true) {
             result = speed + " , " +  color + " , " + radius;
         }
         else
