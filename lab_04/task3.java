@@ -11,7 +11,7 @@ public class task3 {
         // sum row
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                sum_row[i] = mat[i][j];
+                sum_row[i] += mat[i][j];
             }
         }
         for(int i = 0; i < 3; i++) {
@@ -21,7 +21,7 @@ public class task3 {
         // sum col
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                sum_col[i] = mat[i][j];
+                sum_col[i] += mat[i][j];
             }
         }
         for(int i = 0; i < 3; i++) {
