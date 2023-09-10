@@ -10,7 +10,7 @@ public class task3 {
         String str = sc.next();
 
         int count = 0;
-        int index;
+        int index = 0;
 
         for (int i = str.length() - 1; i >= 0; i--) {
             if (isVowel(str.charAt(i))) {
