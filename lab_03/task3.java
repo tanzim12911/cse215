@@ -10,12 +10,20 @@ public class task3 {
         String str = sc.next();
 
         int count = 0;
+        int index;
 
         for (int i = str.length() - 1; i >= 0; i--) {
             if (isVowel(str.charAt(i))) {
                 count++;
+
+                if(count == 2) {
+                    index = i;
+                    break;
+                }
             }
         }
+
+        System.out.println("Index of second last vowel: " + index);
     }
 
     static boolean isVowel(char ch) {
