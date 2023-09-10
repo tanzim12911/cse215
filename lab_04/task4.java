@@ -28,7 +28,7 @@ public class task4 {
         int[] temp = new int[10];
         int x = 0;
 
-        for (int i = 0; i < a.length; i++) {
+        for (int i = 1; i < a.length; i++) {
             if (num == a[i]) {
                 count++;
 
@@ -40,12 +40,9 @@ public class task4 {
                     num = a[i];
                     count = 1;
                 }
-                        
-                }
-                
-
             }
         }
+        
         /*int[] result = new int[x];
         
         for (int i = 0; i < x; i++) {
