@@ -13,9 +13,6 @@ public class task2 {
             System.out.println("The string " + str + " is a Palindrome");
         else
             System.out.println("The string " + str + " is not a Palindrome");
-
-        System.out.println(reverseString(str));
-
     }
 
     static boolean isPalindrome(String yourString) {
