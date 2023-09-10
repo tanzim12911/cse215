@@ -9,7 +9,7 @@ public class task3 {
         int sum_minor = 0;
 
         // sum row
-        for (int i = 0; i < 1; i++) {
+        for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 sum_row[i] = mat[i][j];
             }
@@ -19,7 +19,7 @@ public class task3 {
         }
 
         // sum col
-        for (int i = 0; i < 1; i++) {
+        for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 sum_col[i] = mat[i][j];
             }
