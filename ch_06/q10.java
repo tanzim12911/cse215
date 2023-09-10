@@ -6,7 +6,7 @@ public class q10 {
         int count = 0;
 
         for (int i = 1; i <= 10000; i++) {
-            if(isPrime(i));
+            if(isPrime(i))
                 count++;
         }
 
