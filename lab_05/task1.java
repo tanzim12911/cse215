@@ -14,7 +14,7 @@ public class task1 {
     public static int countVowels(String yourString) {
         int count = 0;
 
-        for(int i = 0; i <= yourString.length(); i++) {
+        for(int i = 0; i <= yourString.length() - 1; i++) {
             if (isVowel(yourString.charAt(i)))
                 count++;
         }
