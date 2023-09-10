@@ -9,7 +9,7 @@ public class q36 {
         int noOfSides = sc.nextInt();
         System.out.print("Enter the side: ");
         double side = sc.nextDouble();
-        System.out.println("The area of the pentagon is " + area(side));
+        System.out.println("The area of the pentagon is " + area(noOfSides, side));
     }
 
     public static double area(int n, double side) {
