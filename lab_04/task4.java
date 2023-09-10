@@ -42,13 +42,13 @@ public class task4 {
 
             }
         }
-        int[] result = new int[x];
+        /*int[] result = new int[x];
         
         for (int i = 0; i < x; i++) {
             result[i] = temp[i];
-        }
+        }*/
 
 
-        return result;
+        return temp;
     }
 }
