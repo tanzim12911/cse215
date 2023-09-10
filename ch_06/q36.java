@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class q36 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the number of sides: ");
+        System.out.print("Enter the number of sides: ");
         int noOfSides = sc.nextInt();
         System.out.print("Enter the side: ");
         double side = sc.nextDouble();
