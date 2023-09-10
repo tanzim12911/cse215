@@ -22,7 +22,8 @@ public class task2 {
         if (yourString.equals(reverse))
             return true;
 
-        return false;
+        else
+            return false;
     }
 
     static String reverseString(String yourString) {
