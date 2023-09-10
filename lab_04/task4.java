@@ -24,19 +24,23 @@ public class task4 {
 
     static int[] indexOfThreeConsecutive(int[] a) {
         int count = 1;
+        int num = a[0];
         int[] temp = new int[10];
         int x = 0;
-        for (int i = 0; i < a.length; i++) {
-            for (int j = 0; j < 2; j++) {
-                if (a[i] == a[j]) {
-                    count++;
 
-                    if(count == 0) {
-                        temp[x] = i;
+        for (int i = 0; i < a.length; i++) {
+            if (num == a[i]) {
+                count++;
+
+                if(count == 3) {
+                    temp[x] = i;
                         x++;
-                    }
-                    else
-                        count = 1;
+                }
+                else {
+                    num = a[i];
+                    count = 1;
+                }
+                        
                 }
                 
 
