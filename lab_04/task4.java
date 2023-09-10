@@ -31,16 +31,16 @@ public class task4 {
         for (int i = 1; i < a.length; i++) {
             if (num == a[i]) {
                 count++;
-
-                if(count == 3) {
-                    temp[x] = i;
-                        x++;
-                }
-                else {
-                    num = a[i];
-                    count = 1;
-                }
             }
+            else {
+                num = a[i];
+                count = 1;
+            }
+
+            if(count == 3) {
+                    temp[x] = i;
+                    x++;
+                }
         }
         
         /*int[] result = new int[x];
