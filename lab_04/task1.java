@@ -23,7 +23,7 @@ public class task1 {
                 count++;
         }
 
-        double percentage = count * 100 / 6;
+        double percentage = count * 100 / 6.0;
         System.out.println("The percentage of numbers that are above that average is " + percentage + "%");
     }
 }
