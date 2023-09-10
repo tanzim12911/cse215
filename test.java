@@ -1,19 +1,27 @@
-
+import java.util.Scanner;
 
 public class test {
     public static void main(String[] args) {
-        System.out.println("i               m(i)");
-        System.out.println("____________________");
-        for (int i = 1; i <= 901; i += 100) {
-            System.out.println(i + "               " + estimatePI(i));
+        Scanner scanner = new Scanner(System.in);
+
+        // Read the size of the array
+        System.out.print("Enter size: ");
+        int size = scanner.nextInt();
+        int[] numbers = new int[size];
+
+        // Read the numbers into the array
+        System.out.print("Enter numbers: ");
+        for (int i = 0; i < size; i++) {
+            numbers[i] = scanner.nextInt();
         }
-    }
-    
-    public static double estimatePI(int n) {
-        double m = 0;
-        for (int i = 1; i <= n; i++) {
-            m += Math.pow(-1, i + 1) / (2.0 * i - 1);
+
+        // Iterate through the array and check for consecutive numbers
+        for (int i = 0; i < size - 2; i++) {
+            if (numbers[i] == numbers[i + 1] - 1 && numbers[i] == numbers[i + 2] - 2) {
+                System.out.print(numbers[i] + " ");
+            }
         }
-        return 4 * m;
+
+        scanner.close();
     }
 }
