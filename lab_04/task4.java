@@ -12,7 +12,12 @@ public class task4 {
             array[i] = sc.nextInt();
         }
 
+        int[] result = indexOfThreeConsecutive(array);
 
+        System.out.println("Output: ");
+        for (int i = 0; i < result.length; i++) {
+            System.out.print(result[i] + " ");
+        }
         
     }
 
@@ -26,8 +31,8 @@ public class task4 {
                     temp[x] = i;
                     x++;
                 }
-                    
             }
         }
+        return temp;
     }
 }
