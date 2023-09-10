@@ -13,6 +13,8 @@ public class task3 {
             for (int j = 0; j < 3; j++) {
                 sum_row[i] = mat[i][j];
             }
+        }
+        for(int i = 0; i < 3; i++) {
             System.out.println("The sum of row " + i + " = " + sum_row[i]);
         }
 
@@ -21,6 +23,8 @@ public class task3 {
             for (int j = 0; j < 3; j++) {
                 sum_col[i] = mat[i][j];
             }
+        }
+        for(int i = 0; i < 3; i++) {
             System.out.println("The sum of col " + i + " = " + sum_col[i]);
         }
 
