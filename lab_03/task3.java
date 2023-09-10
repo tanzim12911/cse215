@@ -23,7 +23,7 @@ public class task3 {
             }
         }
 
-        System.out.println("Index of second last vowel: " + index);
+        System.out.println("Index of " + str.charAt(index) + " which is second last vowel: " + index);
     }
 
     static boolean isVowel(char ch) {
