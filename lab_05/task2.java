@@ -32,7 +32,7 @@ public class task2 {
         String new_str = "";
         char ch;
 
-        for (int i = 0; i < yourString.length() - 1; i++) {
+        for (int i = 0; i < yourString.length(); i++) {
             ch = yourString.charAt(i);
             new_str = ch + new_str;
         }
