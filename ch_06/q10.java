@@ -6,8 +6,8 @@ public class q10 {
         int count = 0;
 
         for (int i = 1; i <= 10000; i++) {
-            isPrime(i);
-            count++;
+            if(isPrime(i));
+                count++;
         }
 
         System.out.println(count);
