@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ConsecutiveNumbers {
+public class test {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
