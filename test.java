@@ -15,7 +15,7 @@ public class test {
             numbers[i] = scanner.nextInt();
         }
 
-        // Iterate through the array and check for consecutive numbers
+        // Iterate through the array and check for consecutive groups of 3
         for (int i = 0; i < size - 2; i++) {
             if (numbers[i] == numbers[i + 1] - 1 && numbers[i] == numbers[i + 2] - 2) {
                 System.out.print(numbers[i] + " ");
