@@ -9,6 +9,10 @@ public class task2 {
         System.out.print("Enter your string: ");
         String str = sc.nextLine();
         
+        if(isPalindrome(str))
+            System.out.println("The string " + str + " is a Palindrome");
+        else
+            System.out.println("The string " + str + " is not a Palindrome");
 
     }
 
