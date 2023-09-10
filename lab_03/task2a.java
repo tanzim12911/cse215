@@ -14,11 +14,11 @@ public class task2a {
         
         for (int i = 0, j = s1.length() - s2.length(); i < s2.length(); i++, j++) {
             if (s1.charAt(i) == s2.charAt(i))
-                System.out.println("The string \"apple\" starts with \"app\"");
+                System.out.println("The string \"apple\" starts with " + s2);
             else if (s1.charAt(j) == s2.charAt(i))
-                System.out.println("The string \"apple\" ends with \"app\"");
+                System.out.println("The string \"apple\" ends with " + s2);
             else
-                System.out.println("The string \"apple\" does not start or ends with \"app\"");
+                System.out.println("The string \"apple\" does not start or ends with " + s2);
         }
     }
     
