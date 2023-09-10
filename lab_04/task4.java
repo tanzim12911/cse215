@@ -29,11 +29,26 @@ public class task4 {
         for (int i = 0; i < a.length; i++) {
             for (int j = 0; j < 2; j++) {
                 if (a[i] == a[j]) {
-                    temp[x] = i;
-                    x++;
+                    count++;
+
+                    if(count == 0) {
+                        temp[x] = i;
+                        x++;
+                    }
+                    else
+                        count = 1;
                 }
+                
+
             }
         }
-        return temp;
+        int[] result = new int[x];
+        
+        for (int i = 0; i < x; i++) {
+            result[i] = temp[i];
+        }
+
+
+        return result;
     }
 }
