@@ -23,6 +23,8 @@ public class task4 {
                 if (array[j] == array [j + 1] && array[j + 1] == array[j + 2]) {
                     System.out.print(array[j] + " ");
                 }
+                else
+                    break;
 
             }
         }
