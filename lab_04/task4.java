@@ -19,7 +19,7 @@ public class task4 {
         System.out.println("Output: ");
 
         for (int i = 0; i < array.length - 3; i++) {
-            for (int j = 0; j < array.length - 2; j++) {
+            for (int j = i; j < array.length - 2; j++) {
                 if (array[j] == array [j + 1] && array[j + 1] == array[j + 2]) {
                     System.out.print(array[j] + " ");
                 }
