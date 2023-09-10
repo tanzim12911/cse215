@@ -13,7 +13,7 @@ public class task1 {
             sum += array[i];
         }
 
-        double average = sum / 6;
+        double average = sum / 6.0;
         System.out.println("The average is " + average);
 
         int count = 0;
