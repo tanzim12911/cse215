@@ -7,7 +7,7 @@ public class q27 {
         int i = 12;
             
     while (count <= 100) {
-            if (isPrime(i) && isPrime(reverse(i)) && isPalindrome(x)) {
+            if (isPrime(i) && isPrime(reverse(i)) && isNotPalindrome(x)) {
                 System.out.print(i + " ");
                 count++;
                 x++;
