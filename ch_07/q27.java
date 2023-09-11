@@ -3,7 +3,7 @@ package ch_07;
 public class q27 {
     public static void main(String[] args) {
         int count = 0;
-        for (int i = 1; i <= 100; i++) {
+        for (int i = 12; i <= 100; i++) {
             if (isPrime(i) && isPrime(reverse(i))) {
                 System.out.print(i + " ");
                 count++;
