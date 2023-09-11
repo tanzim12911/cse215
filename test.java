@@ -7,6 +7,7 @@ public class test {
         System.out.print("Enter the value of n: ");
         int n = sc.nextInt();
         
+        System.out.println("Enter elements row by row:");
         int[][] mat = new int[n][n];
         int sumOfAll = 0;
         for (int i = 0; i < n; i++) {
