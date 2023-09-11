@@ -25,6 +25,8 @@ public class test {
             }
         }
 
+        System.out.println(sumOfAll + " " + sumOfelementsUpperD);
+
         int result = sumOfAll - sumOfelementsUpperD;
 
         System.out.println("Result: " + result);
