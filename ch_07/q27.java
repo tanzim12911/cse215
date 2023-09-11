@@ -17,6 +17,8 @@ public class q27 {
                 System.out.println();
                 x = 0;
             }
+
+            i++;
         } (count <= 100);
         
     }
