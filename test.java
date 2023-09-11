@@ -18,7 +18,7 @@ public class test {
         }
         
         int sumOfelementsUpperD = 0;
-        int x = n - 1;
+        int x = n - 2;
         for (int i = 0; i < n - 1; i++, x--) {
             for (int j = x; j >= 0; j--) {
                 sumOfelementsUpperD += mat[i][j];
