@@ -3,16 +3,19 @@ package ch_07;
 public class q27 {
     public static void main(String[] args) {
         int count = 0;
+        int x = 0;
         int i = 12;
             
     while (count <= 100) {
-            if (isPrime(i) && isPrime(reverse(i))) {
+            if (isPrime(i) && isPrime(reverseNonPalindrome(i))) {
                 System.out.print(i + " ");
                 count++;
+                x++;
             }
 
-            if (count % 10 == 0) {
+            if (x == 10) {
                 System.out.println();
+                x = 0;
             }
 
             i++;
@@ -41,5 +44,12 @@ public class q27 {
         }
 
         return reverse;
+    }
+
+    static int reverseNonPalindrome(int x) {
+        int n = 0;
+        if (x != reverse(x))
+            n = x;
+        return n;
     }
 }
