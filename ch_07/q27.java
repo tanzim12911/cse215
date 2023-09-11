@@ -6,7 +6,7 @@ public class q27 {
         int x = 0;
         int i = 12;
             
-        do {
+        while (count <= 100) {
             if (isPrime(i) && isPrime(reverse(i))) {
                 System.out.print(i + " ");
                 count++;
@@ -19,7 +19,7 @@ public class q27 {
             }
 
             i++;
-        } (count <= 100);
+        } 
         
     }
 
