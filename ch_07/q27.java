@@ -3,19 +3,16 @@ package ch_07;
 public class q27 {
     public static void main(String[] args) {
         int count = 0;
-        int x = 0;
         int i = 12;
             
-        while (count <= 100) {
+    while (count <= 100) {
             if (isPrime(i) && isPrime(reverse(i))) {
                 System.out.print(i + " ");
                 count++;
-                x++;
             }
 
-            if (x == 10) {
+            if (count % 10 == 0) {
                 System.out.println();
-                x = 0;
             }
 
             i++;
