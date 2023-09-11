@@ -3,18 +3,22 @@ package ch_07;
 public class q27 {
     public static void main(String[] args) {
         int count = 0;
-        for (int i = 12; i <= 100; i++) {
+        int x = 0;
+        int i = 12;
+            
+        do {
             if (isPrime(i) && isPrime(reverse(i))) {
                 System.out.print(i + " ");
                 count++;
+                x++;
             }
 
-            if (count == 10) {
+            if (x == 10) {
                 System.out.println();
-                count = 0;
+                x = 0;
             }
-                 
-        }
+        } (count <= 100);
+        
     }
 
     static boolean isPrime(int x) {
