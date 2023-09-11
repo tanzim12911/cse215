@@ -15,13 +15,6 @@ public class test {
                 sumOfAll += mat[i][j];
             }
         }
-
-        
-
-        
-        
-        
-        
         
         int sumOfelementsUpperD = 0;
         int x = n - 1;
@@ -30,5 +23,9 @@ public class test {
                 sumOfelementsUpperD += mat[i][j];
             }
         }
+
+        int result = sumOfAll - sumOfelementsUpperD;
+
+        System.out.println("Result: " + result);
     }
 }
