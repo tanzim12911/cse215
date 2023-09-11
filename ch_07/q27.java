@@ -18,12 +18,12 @@ public class q27 {
     }
 
     static boolean isPrime(int x) {
-        boolean status = false;
+        boolean status = true;
         for (int i = 2; i <= x / 2; i++) {
-            if (x % i == 0)
+            if (x % i == 0) {
                 status = false;
-            else
-                status = true;
+                break;
+            }
         }
         return status;
     }
