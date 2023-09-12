@@ -12,6 +12,7 @@ public class q13 {
 
         double[][] array = new double[row][col];
 
+        System.out.println("Enter the array: ");
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
                 array[i][j] = sc.nextDouble();
