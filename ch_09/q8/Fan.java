@@ -22,7 +22,7 @@ public class Fan {
         return radius;
     }
 
-    public double getColor() {
+    public String getColor() {
         return color;
     }
 
