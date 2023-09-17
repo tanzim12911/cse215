@@ -23,7 +23,8 @@ public class q1 {
 
         System.out.println("Area of the triangle: " + t1.getArea());
         System.out.println("Perimeter of the triangle: " + t1.getPerimeter());
-        System.out.println("Color of the traingle " + t1.getColor());
+        System.out.println("Color of the traingle is " + t1.getColor());
+        System.out.println("Is triangle fillerd: " + t1.isFilled());
         System.out.println(t1.toString());
     }
 }
