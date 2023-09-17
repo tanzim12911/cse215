@@ -58,8 +58,30 @@ public class MyInteger {
         return true;
     }
 
-    public static isEven(MyInteger n) {
+    public static boolean isEven(MyInteger n) {
         return n.isEven();
+    }
+
+    public static boolean isOdd(MyInteger n) {
+        return n.isOdd();
+    }
+
+    public static boolean isPrime(MyInteger n) {
+        return n.isPrime();
+    }
+
+    public boolean equals(int num) {
+        if (this.value == num)
+            return true;
+        else
+            return false;
+    }
+
+    public boolean equals(MyInteger n) {
+        if (this.value == n.value)
+            return true;
+        else
+            return false;
     }
 
 
