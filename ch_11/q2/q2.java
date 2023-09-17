@@ -1,4 +1,4 @@
-package ch_10.q2;
+package ch_11.q2;
 
 public class q2 {
     
