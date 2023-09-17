@@ -10,7 +10,8 @@ public class SavingsAccount extends Account {
         minBalance = 0;
     }
 
-    SavingsAccount() {
+    SavingsAccount(int id, double balance) {
         super(id, balance);
+        this.minBalance = 0;
     }
 }
