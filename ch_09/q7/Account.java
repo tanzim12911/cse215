@@ -8,7 +8,7 @@ public class Account {
     private double annualInterestRate;
     private Date dateCreated;
 
-    Account() {
+    public Account() {
         id = 0;
         balance = 0;
         annualInterestRate = 0;
