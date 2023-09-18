@@ -8,7 +8,7 @@ public class q9 {
         c1.addStudent("Karim");
         c1.addStudent("Tanzim");
 
-        //c1.dropStudent("Tanzim");
+        c1.dropStudent("Tanzim");
 
         String[] students = c1.getStudents();
 
