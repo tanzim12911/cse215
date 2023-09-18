@@ -19,9 +19,10 @@ public class Course {
     }
 
     public void dropStudent(String student) {
-        for(int i = 0; i < 100; i++) {
+        for(int i = 0; i < numberOfStudents; i++) {
             if(students[i].equals(student)) {
                 students[i] = null;
+                break;
             }
         }
     }
