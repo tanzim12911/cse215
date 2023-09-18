@@ -10,8 +10,10 @@ public class q9 {
 
         //c1.dropStudent("Tanzim");
 
+        String[] students = c1.getStudents();
+
         for(int i = 0; i < 3; i++) {
-            System.out.println("Students in the course: " + c1.getStudents());
+            System.out.println("Students in the course: " + students[i]);
         }
     }
 }
