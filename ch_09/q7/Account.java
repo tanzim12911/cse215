@@ -14,7 +14,7 @@ public class Account {
         annualInterestRate = 0;
     }
 
-    Account(int id, double balance) {
+    public Account(int id, double balance) {
         this.id = id;
         this.balance = balance;
         dateCreated = new Date();
