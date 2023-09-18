@@ -11,7 +11,7 @@ public class q7 {
 
     public static Account[] createAccounts(Account[] acc) {
         for(int i = 0; i < acc.length; i++) {
-            acc[i] = new Account();
+            acc[i] = new Account(i, 100);
         }
     }
 }
