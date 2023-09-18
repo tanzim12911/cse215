@@ -7,7 +7,4 @@ public class q4 {
 
         System.out.println("Distance: " + p1.distance(p2));
     }
-
-    
-
 }
