@@ -55,11 +55,11 @@ public class q7 {
                 System.out.println("Balance: " + a.getBalance());
             }
             else if (n == 2) {
-                System.out.println("Enter an amount to withdraw: ");
+                System.out.print("Enter an amount to withdraw: ");
                 a.withdraw(sc.nextDouble());
             }
             else if (n == 3) {
-                System.out.println("Enter an amount to deposit: ");
+                System.out.print("Enter an amount to deposit: ");
                 a.deposit(sc.nextDouble());
             }
 
