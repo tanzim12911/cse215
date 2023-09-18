@@ -8,7 +8,7 @@ public class q9 {
         c1.addStudent("Karim");
         c1.addStudent("Tanzim");
 
-        c1.dropStudent("Tanzim");
+        //c1.dropStudent("Tanzim");
 
         for(int i = 0; i < 3; i++) {
             System.out.println("Students in the course: " + c1.getStudents());
