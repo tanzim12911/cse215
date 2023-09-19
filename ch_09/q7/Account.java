@@ -56,12 +56,12 @@ public class Account {
         return balance * getMonthlyInterestRate();
     }
 
-    public double withdraw(double amount) {
-        return this.balance -= amount; 
+    public void withdraw(double amount) {
+        this.balance -= amount; 
     }
 
-    public double deposit(double amount) {
-        return this.balance += amount; 
+    public void deposit(double amount) {
+        this.balance += amount; 
     }
 
 
