@@ -3,8 +3,19 @@ package ch_11.q2;
 public class Person {
     private String name;
     private String address;
-    private String phoneNum;
+    private int phoneNum;
     private String emailAddress;
+
+    Person() {
+
+    }
+
+    Person(String name, String address, int phoneNum, String emailAddress) {
+        this.name = name;
+        this.address = address;
+        this.phoneNum = phoneNum;
+        this.emailAddress = emailAddress;
+    }
 
     public String getName() {
         return name;
@@ -12,7 +23,7 @@ public class Person {
     public String getAddress() {
         return address;
     }
-    public String getPhoneNum() {
+    public int getPhoneNum() {
         return phoneNum;
     }
     public String getEmailAddress() {
@@ -25,7 +36,7 @@ public class Person {
     public void setAddress(String address) {
         this.address = address;
     }
-    public void setPhoneNum(String phoneNum) {
+    public void setPhoneNum(int phoneNum) {
         this.phoneNum = phoneNum;
     }
     public void setEmailAddress(String emailAddress) {
