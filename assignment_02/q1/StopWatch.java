@@ -11,4 +11,20 @@ public class Stopwatch {
     public long getEndTime() {
         return endTime;
     }
+
+    Stopwatch() {
+        startTime = System.currentTimeMillis();
+    }
+
+    public void start() {
+        startTime = System.currentTimeMillis();
+    }
+
+    public void stop() {
+        endTime = System.currentTimeMillis();
+    }
+
+    public long getElaspedTime() {
+        return endTime - startTime;
+    }
 }

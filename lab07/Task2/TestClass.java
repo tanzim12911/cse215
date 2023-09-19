@@ -8,13 +8,11 @@ public class TestClass {
         System.out.println(f1.toString());
         System.out.println(f2.toString());
 
-        f1.sub(f2);
-        System.out.println(f2.toString());
-
         f1.add(f2);
         System.out.println(f2.toString());
 
-        
+        f1.sub(f2);
+        System.out.println(f2.toString());
 
         f1.multiplication(f2);
         System.out.println(f2.toString());
