@@ -5,8 +5,8 @@ public class TestClass {
         Fraction f1 = new Fraction(1, 4);
         Fraction f2 = new Fraction(3, 5);
 
-        f1.toString();
-        f2.toString();
+        System.out.println(f1.toString());
+        System.out.println(f2.toString());
     }
 
     
