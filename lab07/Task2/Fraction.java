@@ -34,7 +34,7 @@ public class Fraction {
 
     // toString method
     public String toString() {
-        return numerator + " / " + denominator;
+        return (numerator + " / " + denominator);
     }
 
     // methods
