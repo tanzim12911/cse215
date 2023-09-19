@@ -21,7 +21,7 @@ public class q1 {
 
         sw.stop();
 
-        System.out.println("Time taken to sort an integer array of 5 lakh integers is: " + sw.getElaspedTime());
+        System.out.println("Time taken to sort an integer array of 5 lakh integers is: " + (sw.getElaspedTime() / 1000) + " seconds");
     }
 
     public static void bubbleSort(int[] a) {
