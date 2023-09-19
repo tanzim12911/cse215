@@ -36,15 +36,15 @@ public class Account {
         this.id = id;
     }
 
-    public void setBalance(double balace) {
-        this.balance = balace;
+    public void setBalance(double balance) {
+        this.balance = balance;
     }
 
     public void setAnnualInterestRate(double annualInterestRate) {
         this.annualInterestRate = annualInterestRate;
     }
 
-    public Date getDareCreated() {
+    public Date getDateCreated() {
         return dateCreated;
     }
 
@@ -64,6 +64,12 @@ public class Account {
         this.balance += amount; 
     }
 
+    @Override
+    public String toString() {
+
+        return "\nAccount ID: " + getId() + "\nBalance: " + getBalance() +
+                "\nDate created " + getDateCreated();
+    }
 
 
 

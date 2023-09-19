@@ -14,4 +14,18 @@ public class SavingsAccount extends Account {
         super(id, balance);
         this.minBalance = 0;
     }
+
+    public void withdraw(double amount) {
+        if(amount > getBalance()) {
+            System.out.println("You do not have enough balance.");
+        }
+        else {
+            setBalance(getBalance() - amount);
+        }
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + " Overdraft protection not included";
+    }
 }
