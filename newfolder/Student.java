@@ -4,8 +4,8 @@ public class Student extends Person {
     int id;
 
     Student(String name, int age, int id) {
-        super.name = name;
-        super.age = age;
+        this.name = name;
+        this.age = age;
         this.id = id;
     }
 
