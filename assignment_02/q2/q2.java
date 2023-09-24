@@ -6,8 +6,15 @@ public class q2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter your NSU ID: ");
+        char[] id = {'2', '3', '2', '1', '8', '4', '2', '6', '4', '2'};
         
+        MyString1 s1 = new MyString1();
+        s1.string = id;
+
+        System.out.print("Number at 8th digit is: " + s1.charAt(8));
+
+        
+
     }
 
     
