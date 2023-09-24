@@ -20,7 +20,7 @@ public class q2 {
 
         System.out.println("Is this string equal to 'Test123'? : " + s1.equals(s2));
 
-        System.out.println("Last 3 digits of my NSU ID is: ");
+        System.out.print("Last 3 digits of my NSU ID is: ");
         MyString1 lastDigits = s1.subString(length - 3, length);
         for (int i = 0; i < lastDigits.length(); i++) {
 			System.out.print(lastDigits.charAt(i));		
