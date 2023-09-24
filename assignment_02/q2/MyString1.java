@@ -2,7 +2,6 @@ package assignment_02.q2;
 
 public class MyString1 {
     char[] string;
-    int stringLength;
 
     MyString1(String s) {
         string = s.toCharArray();
@@ -10,7 +9,6 @@ public class MyString1 {
 
     MyString1(char[] string) {
         this.string = string;
-        this.stringLength = string.length;
     }
 
     public char charAt(int index) {
@@ -18,7 +16,7 @@ public class MyString1 {
     }
     
     public int length() {
-        return stringLength;
+        return string.length;
     }
 
     public MyString1 subString(int begin, int end) {
@@ -38,11 +36,11 @@ public class MyString1 {
     public boolean equals(MyString1 s) {
         boolean status = true;
 
-        if(s.stringLength != stringLength) {
+        if(s.length() != string.length) {
             status = false;
         }
         else {
-            for(int i = 0; i < stringLength; i++) {
+            for(int i = 0; i < string.length; i++) {
                 if (s.string[i] != string[i]) {
                     status = false;
                 }
@@ -53,9 +51,9 @@ public class MyString1 {
     }
 
     public MyString1 toUpperCase() {
-        char[] UpperString = new char[stringLength];
+        char[] UpperString = new char[string.length];
 
-        for (int i = 0; i < stringLength; i++) {
+        for (int i = 0; i < string.length; i++) {
             UpperString[i] = Character.toUpperCase(string[i]);
         }
 
