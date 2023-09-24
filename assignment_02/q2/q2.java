@@ -7,13 +7,13 @@ public class q2 {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Length of the string is: ");
-        int size = sc.nextInt();
-        char[] str = new char[size];
+        //int size = sc.nextInt();
+        //char[] str = new char[size];
 
         System.out.print("Enter your NSU ID: ");
         String id = sc.next();
 
-        str = id.toCharArray();
+        char[] str = id.toCharArray();
 
         System.out.println(str.toString());
         
