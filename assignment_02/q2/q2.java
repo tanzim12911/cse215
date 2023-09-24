@@ -14,6 +14,8 @@ public class q2 {
         String id = sc.next();
 
         str = id.toCharArray();
+
+        System.out.println(str.toString());
         
         MyString1 s1 = new MyString1(str);
 
