@@ -44,8 +44,8 @@ public class Fraction {
         int n2 = fraction.numerator;
         int m2 = fraction.denominator;
         
-        fraction.numerator = (n1 * m2) + (n2 * m1);
-        fraction.denominator = m1 * m2;
+        this.numerator = (n1 * m2) + (n2 * m1);
+        this.denominator = m1 * m2;
     }
 
     public void sub(Fraction fraction) {
@@ -54,8 +54,8 @@ public class Fraction {
         int n2 = fraction.numerator;
         int m2 = fraction.denominator;
         
-        fraction.numerator = (n1 * m2) - (n2 * m1);
-        fraction.denominator = m1 * m2;
+        this.numerator = (n1 * m2) - (n2 * m1);
+        this.denominator = m1 * m2;
     }
 
     public void multiplication(Fraction fraction) {
@@ -64,8 +64,8 @@ public class Fraction {
         int n2 = fraction.numerator;
         int m2 = fraction.denominator;
         
-        fraction.numerator = n1 * n2;
-        fraction.denominator = m1 * m2;
+        this.numerator = n1 * n2;
+        this.denominator = m1 * m2;
     }
 
     public void division(Fraction fraction) {
@@ -74,8 +74,8 @@ public class Fraction {
         int n2 = fraction.numerator;
         int m2 = fraction.denominator;
         
-        fraction.numerator = n1 * m2;
-        fraction.denominator = m1 * n2;
+        this.numerator = n1 * m2;
+        this.denominator = m1 * n2;
     }
 
 }
