@@ -11,7 +11,7 @@ public class q2 {
         MyString1 s1 = new MyString1();
         s1.string = id;
 
-        System.out.print("Number at 8th digit is: " + s1.charAt(8));
+        System.out.println("Number at 8th digit is: " + s1.charAt(8));
 
         System.out.println("Last 3 digits of my NSU ID is: " + s1.subString(7, 9));
 
