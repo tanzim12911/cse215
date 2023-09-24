@@ -1,22 +1,26 @@
 package assignment_02.q2;
 
 public class MyString1 {
-    char[] string;
+    char[] chars;
 
-    MyString1(String s) {
-        string = s.toCharArray();
+    MyString1(char[] array) {
+        chars = new char[array.length];
+
+        for (int i = 0; i < array.length; i++) {
+            chars[i] = array[i];
+        }
     }
 
-    MyString1(char[] string) {
-        this.string = string;
+    MyString1(String s) {
+        this(s.toCharArray());
     }
 
     public char charAt(int index) {
-        return string[index];
+        return chars[index];
     }
     
     public int length() {
-        return string.length;
+        return chars.length;
     }
 
     public MyString1 subString(int begin, int end) {
@@ -26,7 +30,7 @@ public class MyString1 {
         int x = 0;
         
         for(int i = begin; i < end; i++) {
-            subString[x] = string[i];
+            subString[x] = chars[i];
             x++;
         }
 
@@ -36,12 +40,12 @@ public class MyString1 {
     public boolean equals(MyString1 s) {
         boolean status = true;
 
-        if(s.length() != string.length) {
+        if(s.length() != chars.length) {
             status = false;
         }
         else {
-            for(int i = 0; i < string.length; i++) {
-                if (s.string[i] != string[i]) {
+            for(int i = 0; i < chars.length; i++) {
+                if (s.chars[i] != chars[i]) {
                     status = false;
                 }
             }
@@ -51,10 +55,10 @@ public class MyString1 {
     }
 
     public MyString1 toUpperCase() {
-        char[] UpperString = new char[string.length];
+        char[] UpperString = new char[chars.length];
 
-        for (int i = 0; i < string.length; i++) {
-            UpperString[i] = Character.toUpperCase(string[i]);
+        for (int i = 0; i < chars.length; i++) {
+            UpperString[i] = Character.toUpperCase(chars[i]);
         }
 
         return new MyString1(UpperString);
