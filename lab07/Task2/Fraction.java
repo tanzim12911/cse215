@@ -1,7 +1,5 @@
 package lab07.Task2;
 
-import java.io.FileReader;
-
 public class Fraction {
     private int numerator;
     private int denominator;
