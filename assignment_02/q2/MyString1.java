@@ -25,12 +25,9 @@ public class MyString1 {
 
     public MyString1 subString(int begin, int end) {
         char[] subString = new char[end - begin];
-
-        int x = 0;
         
-        for(int i = begin; i < end; i++) {
-            subString[x] = chars[i];
-            x++;
+        for(int i = begin, j = 0; i < end; i++, j++) {
+            subString[j] = chars[i];
         }
 
         return new MyString1(subString);
@@ -57,13 +54,7 @@ public class MyString1 {
         char[] upperCase = new char[chars.length];
 
         for (int i = 0; i < chars.length; i++) {
-            if (chars[i] >= 'a' && chars[i] <= 'z') {
-                upperCase[i] = (char)(chars[i] - 32);
-            }
-            else
-            {
-                upperCase[i] = chars[i];
-            }
+            upperCase[i] = Character.toUpperCase(chars[i]);
         }
 
         return new MyString1(upperCase);
