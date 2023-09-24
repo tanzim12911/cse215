@@ -8,12 +8,9 @@ public class MyString1 {
 
     }
 
-    MyString1(char[] array) {
-        stringLength = array.length;
-        string = new char[stringLength];
-        for(int i = 0; i < stringLength; i++) {
-            string[i] = array[i];
-        }
+    MyString1(char[] string) {
+        this.string = string;
+        this.stringLength = string.length;
     }
 
     public char charAt(int index) {
