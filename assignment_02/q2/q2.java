@@ -14,11 +14,11 @@ public class q2 {
         System.out.print("Enter your NSU ID: ");
         String id = sc.next();
 
-        char[] str = id.toCharArray();
+        //char[] str = id.toCharArray();
 
-        System.out.println(Arrays.toString(str));
+        //System.out.println(Arrays.toString(str));
         
-        MyString1 s1 = new MyString1(str);
+        MyString1 s1 = new MyString1(id);
 
         System.out.println("Number at 8th digit is: " + s1.charAt(8));
 

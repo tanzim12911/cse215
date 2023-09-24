@@ -4,8 +4,8 @@ public class MyString1 {
     char[] string;
     int stringLength;
 
-    MyString1() {
-
+    MyString1(String s) {
+        string = s.toCharArray();
     }
 
     MyString1(char[] string) {
