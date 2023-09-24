@@ -54,13 +54,19 @@ public class MyString1 {
     }
 
     public MyString1 toUpperCase() {
-        char[] UpperString = new char[chars.length];
+        char[] upperCase = new char[chars.length];
 
         for (int i = 0; i < chars.length; i++) {
-            UpperString[i] = Character.toUpperCase(chars[i]);
+            if (chars[i] >= 'a' && chars[i] <= 'z') {
+                upperCase[i] = (char)(chars[i] - 32);
+            }
+            else
+            {
+                upperCase[i] = chars[i];
+            }
         }
 
-        return new MyString1(UpperString);
+        return new MyString1(upperCase);
     }
 
 
