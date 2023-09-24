@@ -26,7 +26,7 @@ public class MyString1 {
     public MyString1 subString(int begin, int end) {
         char[] subString = new char[end - begin];
         
-        for(int i = begin, j = 0; i <= end; i++, j++) {
+        for(int i = begin, j = 0; i < end; i++, j++) {
             subString[j] = chars[i];
         }
 

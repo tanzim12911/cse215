@@ -17,9 +17,14 @@ public class q2 {
 
         System.out.println("Is this string equal to 'Test123'? : " + s1.equals(s2));
 
-        System.out.println("Last 3 digits of my NSU ID is: " + s1.subString(7, 10));
+        System.out.println("Last 3 digits of my NSU ID is: ");
+        
 
         System.out.println("Uppercase of my string is: " + s1.toUpperCase());
+		MyString1 upper = s1.toUpperCase();
+		for (int i = 0; i < upper.length(); i++) {
+			System.out.print(upper.charAt(i));		
+		}
 
         if(s1.charAt(7) == '6')
             System.out.println("8th digit of my NSU ID is 6. I must make it 0 before graduating from NSU");
