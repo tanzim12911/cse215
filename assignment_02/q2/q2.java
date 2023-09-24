@@ -25,6 +25,7 @@ public class q2 {
 		for (int i = 0; i < upper.length(); i++) {
 			System.out.print(upper.charAt(i));		
 		}
+        System.out.println();
 
         if(s1.charAt(7) == '6')
             System.out.println("8th digit of my NSU ID is 6. I must make it 0 before graduating from NSU");
