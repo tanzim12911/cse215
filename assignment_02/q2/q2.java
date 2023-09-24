@@ -1,5 +1,6 @@
 package assignment_02.q2;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class q2 {
@@ -15,7 +16,7 @@ public class q2 {
 
         char[] str = id.toCharArray();
 
-        System.out.println(str.toString());
+        System.out.println(Arrays.toString(str));
         
         MyString1 s1 = new MyString1(str);
 
