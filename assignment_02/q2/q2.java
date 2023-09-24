@@ -13,7 +13,7 @@ public class q2 {
 
         System.out.println("Number at 8th digit is: " + s1.charAt(8));
 
-        System.out.println("Last 3 digits of my NSU ID is: " + s1.subString(7, 10));
+        System.out.println("Last 3 digits of my NSU ID is: " + s1.subString(7,8));
 
     }
 
