@@ -8,13 +8,11 @@ public class q2 {
 
         System.out.println("Length of the string is: ");
         int size = sc.nextInt();
-        char[] str = new char[size];
+        //char[] str = new char[size];
 
         System.out.print("Enter your NSU ID: ");
         
-        for (int i = 0; i < size; i++) {
-            str[i] = sc.next().charAt(i);
-        }
+        char[] str = {'2', '3', '2', '1', '8', '4', '2', '6', '4', '2'};
         
         
         MyString1 s1 = new MyString1(str);
