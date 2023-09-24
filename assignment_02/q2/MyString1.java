@@ -24,8 +24,7 @@ public class MyString1 {
     }
 
     public MyString1 subString(int begin, int end) {
-        int subStringLn = end - begin;
-        char[] subString = new char[subStringLn];
+        char[] subString = new char[end - begin];
 
         int x = 0;
         
