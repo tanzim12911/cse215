@@ -11,8 +11,11 @@ public class q2 {
         String id = sc.next();
         
         MyString1 s1 = new MyString1(id);
+        MyString1 s2 = new MyString1("Test123");
 
         System.out.println("Number at 8th digit is: " + s1.charAt(7));
+
+        System.out.println("Is this string equal to 'Test123'? : " + s1.equals(s2));
 
         System.out.println("Last 3 digits of my NSU ID is: " + s1.subString(7, 10));
 
