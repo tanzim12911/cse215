@@ -14,24 +14,28 @@ public class TestClass {
         System.out.println(f1.toString());
         System.out.println(f2.toString());
 
+        System.out.println("Addition: ");
         f1.add(f2);
         System.out.println(f1.toString());
-
+        
         f1.setNumerator(n1);
         f1.setDenominator(m1);
 
+        System.out.println("Subtraction: ");
         f1.sub(f2);
         System.out.println(f1.toString());
 
         f1.setNumerator(n1);
         f1.setDenominator(m1);
 
+        System.out.println("Multiplication: ");
         f1.multiplication(f2);
         System.out.println(f1.toString());
 
         f1.setNumerator(n1);
         f1.setDenominator(m1);
 
+        System.out.println("Division: ");
         f1.division(f2);
         System.out.println(f1.toString());
     }
