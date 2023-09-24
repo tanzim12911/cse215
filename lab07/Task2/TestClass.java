@@ -17,7 +17,7 @@ public class TestClass {
         f1.add(f2);
         System.out.println(f1.toString());
 
-        f1.setNumerator();
+        
 
         f1.sub(f2);
         System.out.println(f1.toString());
