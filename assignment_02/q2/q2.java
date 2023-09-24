@@ -26,7 +26,7 @@ public class q2 {
 
         System.out.println("Uppercase of mystring is: " + s1.toUpperCase());
 
-        if(s1.charAt(8) == 6)
+        if(s1.charAt(7) == 6)
             System.out.println("8th digit of my NSU ID is 6. I must make it 0 before graduating from NSU");
         else
             System.out.println("8th digit of my NSU ID is already 0.");
