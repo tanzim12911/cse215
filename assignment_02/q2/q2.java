@@ -20,7 +20,7 @@ public class q2 {
         System.out.println("Last 3 digits of my NSU ID is: ");
         
 
-        System.out.println("Uppercase of my string is: " + s1.toUpperCase());
+        System.out.println("Uppercase of my string is: ");
 		MyString1 upper = s1.toUpperCase();
 		for (int i = 0; i < upper.length(); i++) {
 			System.out.print(upper.charAt(i));		
