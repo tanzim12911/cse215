@@ -17,13 +17,20 @@ public class TestClass {
         f1.add(f2);
         System.out.println(f1.toString());
 
-        
+        f1.setNumerator(n1);
+        f1.setDenominator(m1);
 
         f1.sub(f2);
         System.out.println(f1.toString());
 
+        f1.setNumerator(n1);
+        f1.setDenominator(m1);
+
         f1.multiplication(f2);
         System.out.println(f1.toString());
+
+        f1.setNumerator(n1);
+        f1.setDenominator(m1);
 
         f1.division(f2);
         System.out.println(f1.toString());
