@@ -8,21 +8,20 @@ public class q2 {
 
         System.out.println("Length of the string is: ");
         int size = sc.nextInt();
-        char[] string = new char[size];
+        char[] str = new char[size];
 
         System.out.print("Enter your NSU ID: ");
         
         for (int i = 0; i < size; i++) {
-            string[i] = sc.next().charAt(i);
+            str[i] = sc.next().charAt(i);
         }
         
         
-        MyString1 s1 = new MyString1();
-        s1.string = id;
+        MyString1 s1 = new MyString1(str);
 
         System.out.println("Number at 8th digit is: " + s1.charAt(8));
 
-        System.out.println("Last 3 digits of my NSU ID is: " + s1.subString());
+        System.out.println("Last 3 digits of my NSU ID is: " + s1.subString(7, 10));
 
         System.out.println("Uppercase of mystring is: " + s1.toUpperCase());
 
