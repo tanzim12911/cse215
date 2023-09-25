@@ -52,7 +52,7 @@ public class RegularPolygon {
     }
 
     public double getArea() { 
-        return (Math.pow(side, 2) * n) / (4 * Math.tan(180 / n));
+        return (Math.pow(side, 2) * n) / (4 * Math.tan(Math.toRadians(180 / n)));
     }
 
     public double getPerimeter() {
