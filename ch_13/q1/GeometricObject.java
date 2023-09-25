@@ -1,8 +1,6 @@
-package ch_11.q1;
-
 import java.util.Date;
 
-public class GeometricObject {
+public abstract class GeometricObject {
     private String color;
     private boolean filled;
     private Date dateCreated;
