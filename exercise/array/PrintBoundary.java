@@ -22,7 +22,7 @@ public class PrintBoundary {
                 else if (i == m - 1)
                     System.out.print(array[i][j] + " ");
                 else
-                    System.out.print(" ");
+                    System.out.print("  ");
             }
             System.out.println();
         }
