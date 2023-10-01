@@ -28,8 +28,15 @@ public class q8 {
             System.out.print(array[i] + " ");
         }
         
-        insertElement(array, value, p);
         
+        //insertElement(array, value, p);
+        
+        for(int i = array.length - 1; i > p; i--) {
+            array[i] =  array[i - 1];
+        }
+
+        array[p] = value;
+
         System.out.println("Elements after insert: ");
         for(int i = 0; i < size; i++) {
             System.out.print(array[i] + " ");
@@ -37,6 +44,7 @@ public class q8 {
 
     }
 
+    /*
     public static void insertElement(int[] array, int value, int position) {
         for(int i = array.length - 1; i > position; i--) {
             array[i] =  array[i - 1];
@@ -44,4 +52,6 @@ public class q8 {
 
         array[position] = value;
     }
+
+    */
 }
