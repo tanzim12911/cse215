@@ -38,7 +38,7 @@ public class q8 {
     }
 
     public static void insertElement(int[] array, int value, int position) {
-        for(int i = array.length; i >= position; i--) {
+        for(int i = array.length; i > position; i--) {
             array[i] =  array[i - 1];
         }
 
