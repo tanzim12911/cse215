@@ -38,7 +38,7 @@ public class q8 {
         array[p] = value;
 
         System.out.println("\nElements after insert: ");
-        for(int i = 0; i < size; i++) {
+        for(int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }
 
