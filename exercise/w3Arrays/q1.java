@@ -16,6 +16,14 @@ public class q1 {
         for(int i = 0; i < arr1.length; i++) {
             System.out.print(arr1[i] + " ");
         }
+
+        String[] strArr = {"Java", "Python", "PHP", "C#", "C Programming", "C++"};
+        
+        Arrays.sort(strArr);
+        System.out.println("Sorted String Array: ");
+        for(int i = 0; i < strArr.length; i++) {
+            System.out.print(strArr[i] + " ");
+        }
     }
     
 
@@ -26,9 +34,11 @@ public class q1 {
             int temp = array[i];
             array[i] = array[j];
             array[j] = temp;
-        }
+            }
         }
     }
+
+    
 }
 
 }
