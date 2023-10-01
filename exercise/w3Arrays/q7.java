@@ -1,5 +1,7 @@
 package exercise.w3Arrays;
 
+import java.util.Arrays;
+
 public class q7 {
     public static void main(String[] args) {
         int[] arr = {25, 14, 56, 15, 36, 56, 77, 18, 29, 49};
@@ -22,9 +24,11 @@ public class q7 {
 
         for (int i = 0; i < array.length; i++) {
             if (n != array[i]) {
-                arr[index] = array[i];
+                array[index] = array[i];
                 index++; 
             }
         }
+
+        return Arrays.copyOf(array, index);
     }
 }
