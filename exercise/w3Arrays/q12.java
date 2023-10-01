@@ -12,7 +12,7 @@ public class q12 {
                 }
             }
             if (count > 1)
-                System.out.println(i + " appears " + count + " times");
+                System.out.println(arr[i] + " appears " + count + " times");
         }
     }
 }
