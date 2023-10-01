@@ -5,6 +5,9 @@ import java.util.Arrays;
 public class RemoveAllOccuranceofAnElement {
     public static void main(String[] args) {
         int[] array = {10, 20 , 30, 10, 40, 10};
+        int key = 10;
+
+        System.out.println(RemoveOccurence(array, key));
 
     }
 
