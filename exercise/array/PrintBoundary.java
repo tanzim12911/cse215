@@ -24,6 +24,7 @@ public class PrintBoundary {
                 else
                     System.out.print(" ");
             }
+            System.out.println();
         }
     }
 }
