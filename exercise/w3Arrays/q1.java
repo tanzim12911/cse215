@@ -7,6 +7,7 @@ public class q1 {
         for(int i = 0; i < arr1.length; i++) {
             System.out.print(arr1[i] + " ");
         }
+        System.out.println();
 
         sortNumericArr(arr1);
         System.out.println("Sorted Numeric Array: ");
