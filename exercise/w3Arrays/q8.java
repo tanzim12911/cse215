@@ -31,11 +31,11 @@ public class q8 {
         
         //insertElement(array, value, p);
         
-        for(int i = array.length - 1; i > p; i--) {
+        for(int i = array.length - 1; i >= p; i--) {
             array[i] =  array[i - 1];
         }
 
-        array[p] = value;
+        array[p - 1] = value;
 
         System.out.println("\nElements after insert: ");
         for(int i = 0; i < array.length; i++) {
