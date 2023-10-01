@@ -9,7 +9,7 @@ public class q8 {
         System.out.println("Enter array size: ");
         int size = sc.nextInt();
 
-        int[] array = new int[10];
+        int[] array = new int[size + 1];
 
         System.out.println("Enter " + size + "elements: ");
 
