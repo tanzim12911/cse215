@@ -8,8 +8,10 @@ public class PrintUniqueElements {
 
     public static void UniqueElementsDisplay(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
-            if(arr[i] != arr[i + 1]) {
-                System.out.println(arr[i] + " ");
+            for (int j = 0; j < arr.length; j++) {
+                if(arr[i] != arr[i + 1]) {
+                    System.out.println(arr[i] + " ");
+                }
             }
         }
     }
