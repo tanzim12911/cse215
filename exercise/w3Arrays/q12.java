@@ -10,8 +10,8 @@ public class q12 {
                 if (arr[i] == arr[j]) {
                     count++;
                 }
-                System.out.println(i + " appears " + count + " times");
             }
+            System.out.println(i + " appears " + count + " times");
         }
     }
 }
