@@ -8,7 +8,7 @@ public class ReverseString {
 
         for(int i = 0; i < s1.length(); i++) {
             ch = s1.charAt(i);
-            newsrt += ch + newsrt;
+            newsrt = ch + newsrt;
         }
 
         System.out.println(newsrt);
