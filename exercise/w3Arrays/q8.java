@@ -6,12 +6,12 @@ public class q8 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter array size: ");
+        System.out.print("Enter array size: ");
         int size = sc.nextInt();
 
         int[] array = new int[size + 1];
 
-        System.out.println("Enter " + size + "elements: ");
+        System.out.print("Enter " + size + "elements: ");
 
         for(int i = 0; i < size; i++) {
             array[i] = sc.nextInt();
@@ -20,7 +20,7 @@ public class q8 {
         System.out.print("Value to be inserted: ");
         int value = sc.nextInt();
 
-        System.out.println("Enter the position: ");
+        System.out.print("Enter the position: ");
         int p = sc.nextInt();
 
         System.out.println("Current Elements: ");
@@ -42,6 +42,6 @@ public class q8 {
             array[i] =  array[i - 1];
         }
 
-        array[position - 1] = value;
+        array[position] = value;
     }
 }
