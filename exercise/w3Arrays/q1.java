@@ -19,7 +19,7 @@ public class q1 {
 
         String[] strArr = {"Java", "Python", "PHP", "C#", "C Programming", "C++"};
         
-        Arrays.sort(strArr);
+        
         System.out.println("Sorted String Array: ");
         for(int i = 0; i < strArr.length; i++) {
             System.out.print(strArr[i] + " ");
@@ -37,8 +37,6 @@ public class q1 {
             }
         }
     }
-
-    
 }
 
 }
