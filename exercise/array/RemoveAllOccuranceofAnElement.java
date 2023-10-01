@@ -7,7 +7,11 @@ public class RemoveAllOccuranceofAnElement {
         int[] array = {10, 20 , 30, 10, 40, 10};
         int key = 10;
 
-        System.out.println(RemoveOccurence(array, key));
+        int[] result = RemoveOccurence(array, key);
+        
+        for(int i = 0; i < result.length; i++) {
+            System.out.print(result[i] + " ");
+        }
 
     }
 
