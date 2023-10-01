@@ -12,7 +12,7 @@ public class q7 {
 
         int[] result = removeElement(arr, key);
 
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i < result.length; i++) {
             System.out.print(result[i] + " ");
         }
 
