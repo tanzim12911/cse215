@@ -11,7 +11,7 @@ public class q1 {
         }
         System.out.println();
 
-        Arrays.sort(arr1);
+        sortNumericArr(arr1);
         System.out.println("Sorted Numeric Array: ");
         for(int i = 0; i < arr1.length; i++) {
             System.out.print(arr1[i] + " ");
@@ -21,10 +21,12 @@ public class q1 {
 
     public static void sortNumericArr(int[] array) {
     for(int i = 0; i < array.length - 1; i++) {
-        if (array[i] > array[i + 1]) {
+        for(int j = 1; j < array.length; j++) {
+            if (array[i] > array[j]) {
             int temp = array[i];
-            array[i] = array[i + 1];
-            array[i + 1] = temp;
+            array[i] = array[j];
+            array[j] = temp;
+        }
         }
     }
 }
