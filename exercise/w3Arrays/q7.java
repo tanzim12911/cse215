@@ -8,20 +8,22 @@ public class q7 {
 
         System.out.println("New array: ");
 
-        removeElement(arr, key);
+        int[] result = removeElement(arr, key);
 
         for (int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i] + " ");
+            System.out.println(result[i] + " ");
         }
 
 
     }
 
-    public static void removeElement(int[] array, int n) {
-        
+    public static int[] removeElement(int[] array, int n) {
+        int index = 0;
+
         for (int i = 0; i < array.length; i++) {
-            if (n == array[i]) {
-                array[i] = (Integer) null;
+            if (n != array[i]) {
+                arr[index] = array[i];
+                index++; 
             }
         }
     }
