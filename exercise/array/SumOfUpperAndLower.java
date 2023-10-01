@@ -36,7 +36,7 @@ public class SumOfUpperAndLower {
             }
         }
 
-        System.out.println("Sum of upper triangle: " + sumUpper);
+        System.out.println("Sum of lower triangle: " + sumLower);
 
 
 
