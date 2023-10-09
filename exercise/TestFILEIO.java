@@ -7,7 +7,7 @@ public class TestFILEIO {
         File f1 = new File("testfile.txt");
 
         System.out.println(f1.getName());
-        System.out.println(f1.getParent());
+        System.out.println(f1.getPath);
         System.out.println(f1.getAbsolutePath());
     }
 }
