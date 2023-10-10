@@ -23,6 +23,5 @@ public class q1 {
         System.out.println(t1.getArea());
         System.out.println(t1.getPerimeter());
         
-
     }
 }
