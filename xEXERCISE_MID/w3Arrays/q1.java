@@ -1,4 +1,4 @@
-package exercise.w3Arrays;
+package xEXERCISE_MID.w3Arrays;
 
 import java.util.Arrays;
 
