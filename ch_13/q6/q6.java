@@ -2,7 +2,7 @@ package ch_13.q6;
 
 public class q6 {
     public static void main(String[] args) {
-        ComparableCircle c1 = new ComparableCircle(5);
+        ComparableCircle c1 = new ComparableCircle(10);
         ComparableCircle c2 = new ComparableCircle(10);
 
         if (c1.compareTo(c2) > 0)
