@@ -18,7 +18,7 @@ public class q1 {
         System.out.println("Is the triangle filled?");
         t1.setFilled(sc.nextBoolean());
 
-        t1.toString();
+        System.out.println(t1.toString());
         System.out.println(t1.isFilled());
         System.out.println(t1.getArea());
         System.out.println(t1.getPerimeter());
