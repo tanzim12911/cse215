@@ -39,5 +39,11 @@ public class Rectangle extends GeometricObject {
     public double getPerimeter() {
         return 2 * (width + height);
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + "\nWidth: " + width + "\nHeight: " + height
+                + "\nArea: " + getArea() + "\nPerimeter: " + getPerimeter();
+    }
     
 }
