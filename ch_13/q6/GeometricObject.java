@@ -1,4 +1,4 @@
-package ch_13.q1;
+package ch_13.q6;
 
 import java.util.Date;
 
