@@ -8,6 +8,8 @@ public class q12 {
         list[1] = new Circle(10);
         list[2] = new Rectangle(5, 4);
         list[3] = new Rectangle(10, 8);
+
+        System.out.println("Sum of area: " + sumArea(list));
     }
 
     public static double sumArea(GeometricObject[] a) {
