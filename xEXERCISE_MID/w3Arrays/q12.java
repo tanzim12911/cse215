@@ -1,4 +1,4 @@
-package exercise.w3Arrays;
+package xEXERCISE_MID.w3Arrays;
 
 public class q12 {
     public static void main(String[] args) {
