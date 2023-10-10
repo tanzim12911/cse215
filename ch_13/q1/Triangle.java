@@ -1,7 +1,5 @@
 package ch_13.q1;
 
-import ch_13.RequiredClass.GeometricObject;
-
 public class Triangle extends GeometricObject {
 
     private double side1;
