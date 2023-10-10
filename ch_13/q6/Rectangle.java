@@ -1,6 +1,6 @@
-package ch_13.q5;
+package ch_13.q6;
 
-import ch_13.q5.GeometricObject;
+import ch_13.q6.GeometricObject;
 
 public class Rectangle extends GeometricObject {
     private double width;
