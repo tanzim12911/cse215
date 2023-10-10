@@ -31,7 +31,7 @@ public class Octagon extends GeometricObject implements Cloneable, Comparable<Oc
 
     @Override
     public Octagon clone() throws CloneNotSupportedException {
-        return this.clone();
+        return (Octagon) this.clone();
     }
 
     @Override
