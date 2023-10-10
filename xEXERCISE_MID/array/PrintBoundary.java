@@ -1,4 +1,4 @@
-package exercise.array;
+package xEXERCISE_MID.array;
 
 public class PrintBoundary {
     public static void main(String[] args) {
