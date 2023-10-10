@@ -11,13 +11,12 @@ public class Faculty extends Employee {
         this.initial = initial;
         this.rank = rank;
     }
-
-    public Faculty(String name, String gender, int age, String initial, String rank) {
-        super(name, gender, age);
+    public Faculty(String name, String gender, int age, String id, String departement, double salary, String initial,
+            String rank) {
+        super(name, gender, age, id, departement, salary);
         this.initial = initial;
         this.rank = rank;
     }
-    
     public String getInitial() {
         return initial;
     }
