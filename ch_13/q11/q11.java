@@ -12,5 +12,10 @@ public class q11 {
         try {
             ot2 = ot1.clone();
         }
+        catch (CloneNotSupportedException e) {
+            System.out.println("Clone not possible");
+        }
+
+        System.out.println("Comapare: " + ot1.compareTo(ot2));
     }
 }
