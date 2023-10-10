@@ -1,8 +1,8 @@
-package ch_13.q5;
+package ch_13.q10;
 
 import ch_13.q5.GeometricObject;
 
-public class Rectangle extends GeometricObject {
+public class Rectangle extends GeometricObject implements Comparable<Rectangle> {
     private double width;
     private double height;
 
@@ -45,5 +45,14 @@ public class Rectangle extends GeometricObject {
         return super.toString() + "\nWidth: " + width + "\nHeight: " + height
                 + "\nArea: " + getArea() + "\nPerimeter: " + getPerimeter();
     }
+
+    @Override
+    public int compareTo(Rectangle r) {
+        return Double.compare(this.getArea(), r.getArea());
+    }
     
+    @Override
+    public boolean equals(Rectangle r) {
+        
+    }
 }
