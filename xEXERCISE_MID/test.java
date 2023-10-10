@@ -1,3 +1,4 @@
+package xEXERCISE_MID;
 import java.util.Scanner;
 
 public class test {
