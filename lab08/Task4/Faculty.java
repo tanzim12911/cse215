@@ -33,6 +33,6 @@ public class Faculty extends Employee {
 
     @Override
     public String toString() {
-        return super.toString() + "initial: " + initial + "\nrank: " + rank;
+        return super.toString() + "\ninitial: " + initial + "\nrank: " + rank;
     }
 }

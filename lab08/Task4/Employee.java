@@ -37,6 +37,6 @@ public class Employee extends Person {
 
     @Override
     public String toString() {
-        return super.toString() + "id: " + id + "\ndepartment: " + departement + "\nsalary: " + salary;
+        return super.toString() + "\nid: " + id + "\ndepartment: " + departement + "\nsalary: " + salary;
     }
 }
