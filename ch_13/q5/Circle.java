@@ -1,4 +1,6 @@
-package ch_13.RequiredClass;
+package ch_13.q5;
+
+import ch_13.q5.GeometricObject;
 
 public class Circle extends GeometricObject {
     private double radius;
