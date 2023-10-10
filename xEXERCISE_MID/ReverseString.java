@@ -1,4 +1,4 @@
-package exercise;
+package xEXERCISE_MID;
 
 public class ReverseString {
     public static void main(String[] args) {
