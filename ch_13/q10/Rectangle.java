@@ -1,6 +1,6 @@
 package ch_13.q10;
 
-import ch_13.q5.GeometricObject;
+import ch_13.q10.GeometricObject;
 
 public class Rectangle extends GeometricObject implements Comparable<Rectangle> {
     private double width;
@@ -52,7 +52,11 @@ public class Rectangle extends GeometricObject implements Comparable<Rectangle> 
     }
     
     @Override
-    public boolean equals(Rectangle r) {
-        
+    public boolean equals(Object o) {
+        Rectangle r = (Rectangle) o;
+        if (this.getArea() == r.getArea())
+            return true;
+        else
+            return false;
     }
 }
