@@ -1,8 +1,8 @@
-package ch_13.q5;
+package ch_13.q9;
 
-import ch_13.q5.GeometricObject;
+import ch_13.q9.GeometricObject;
 
-public class Circle extends GeometricObject {
+public class Circle extends GeometricObject implements Comparable<Circle> {
     private double radius;
 
     public Circle() {
@@ -39,5 +39,13 @@ public class Circle extends GeometricObject {
     public String toString() {
         return super.toString() + "\nRadius: " + getRadius() + "\nArea: "
                 + getArea() + "\nPerimeter: " + getPerimeter();
+    }
+
+    @Override
+    public boolean equals(Circle c) {
+        if(this.radius == c.radius)
+            return true;
+        else
+            return false;
     }
 }
