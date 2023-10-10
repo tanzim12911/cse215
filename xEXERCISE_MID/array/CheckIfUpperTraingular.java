@@ -1,4 +1,4 @@
-package exercise.array;
+package xEXERCISE_MID.array;
 
 import java.util.Scanner;
 
