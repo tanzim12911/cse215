@@ -42,10 +42,16 @@ public class Circle extends GeometricObject implements Comparable<Circle> {
     }
 
     @Override
-    public boolean equals(Circle c) {
+    public boolean equals(Object o) {
+        Circle c = (Circle) o;
         if(this.radius == c.radius)
             return true;
         else
             return false;
+    }
+
+    @Override
+    public int compareTo(Circle c) {
+        return Double.compare(radius, c.radius);
     }
 }
