@@ -16,10 +16,11 @@ public class q13 {
         String[] list = c1.getStudents();
 
         for(String x: list) {
-            System.out.println(x + " ");
+            if (x != null)
+                System.out.println(x + " ");
         }
         
-        
+        System.out.println("After drop:");
         c1.dropStudent("Ekko");
         
         list = c1.getStudents();
