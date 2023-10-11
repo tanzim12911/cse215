@@ -21,7 +21,7 @@ public class Course implements Cloneable {
 
     public void dropStudent(String name) {
         for(int i = 0; i < students.length; i++) {
-            if (students[i].equals(name)) {
+            if (students[i] != null &&students[i].equals(name)) {
                 students[i] = null;
             }
         }
