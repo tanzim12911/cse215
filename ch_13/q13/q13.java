@@ -20,7 +20,7 @@ public class q13 {
         }
         
         
-        c1.dropStudent("null");
+        c1.dropStudent("Ekko");
         
         list = c1.getStudents();
 
