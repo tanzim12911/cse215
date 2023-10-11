@@ -15,8 +15,8 @@ public class q13 {
 
         String[] list = c1.getStudents();
 
-        for(int i = 0; i < list.length; i++) {
-            System.out.println(list[i] + " ");
+        for(String x: list) {
+            System.out.println(x + " ");
         }
         
         

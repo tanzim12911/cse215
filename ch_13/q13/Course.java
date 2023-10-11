@@ -3,7 +3,7 @@ package ch_13.q13;
 public class Course implements Cloneable {
     
     private String courseName;
-    private String[] students;
+    private String[] students = new String[100];
     private int numberOfStudents;
 
     public Course(String courseName) {
