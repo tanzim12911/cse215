@@ -26,7 +26,8 @@ public class q13 {
         list = c1.getStudents();
 
         for(String x: list) {
-            System.out.println(x);
+            if(x != null)
+                System.out.println(x);
         }
         
     }
