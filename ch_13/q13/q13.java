@@ -4,6 +4,8 @@ public class q13 {
     public static void main(String[] args) {
         Course c1 = new Course("CSE115");
 
+        
+
         c1.addStudent("Jinx");
         c1.addStudent("Ekko");
         c1.addStudent("Powder");
@@ -13,8 +15,8 @@ public class q13 {
 
         String[] list = c1.getStudents();
 
-        for(String x: list) {
-            System.out.println(x);
+        for(int i = 0; i < list.length; i++) {
+            System.out.println(list[i] + " ");
         }
         
         
