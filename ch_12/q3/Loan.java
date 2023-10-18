@@ -24,6 +24,9 @@ public class Loan {
     }
 
     public void setAnnualInterestRate(double annualInterestRate) {
+        if (annualInterestRate <= 0) {
+            throw new IllegalArgumentException();
+        }
         this.annualInterestRate = annualInterestRate;
     }
 
@@ -32,6 +35,9 @@ public class Loan {
     }
 
     public void setNumberOfYears(int numberOfYears) {
+        if (numberOfYears <= 0) {
+            throw new IllegalArgumentException();
+        }
         this.numberOfYears = numberOfYears;
     }
 
@@ -40,6 +46,9 @@ public class Loan {
     }
 
     public void setLoanAmount(double loanAmount) {
+        if (loanAmount <= 0) {
+            throw new IllegalArgumentException();
+        }
         this.loanAmount = loanAmount;
     }
 
