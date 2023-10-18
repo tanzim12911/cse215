@@ -7,7 +7,7 @@ public class q3 {
         try {
             ln.setAnnualInterestRate(0);
         } catch (IllegalArgumentException e) {
-            System.out.println(e.getMessage);
+            System.out.println(e.getMessage());
         }
 
         try {
