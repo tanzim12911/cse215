@@ -6,7 +6,7 @@ public class TestClass {
             Triangle t = new Triangle(2, 2, 4);
             System.out.println(t.toString());
         } catch (Exception e) {
-            System.out.println("ERROR");
+            System.out.println(e.toString());
         }
 
     }
