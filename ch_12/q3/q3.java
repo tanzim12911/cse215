@@ -18,7 +18,7 @@ public class q3 {
 
         try {
             ln.setLoanAmount(-500);
-        } catch (IllegalArgumentException e) {
+        } catch (Exception e) {
             System.out.println(e);
         }
     }
