@@ -21,6 +21,7 @@ public class q2 {
             catch (InputMismatchException ime) {
                 status = true;
                 System.out.println("Invalid input, try again.");
+                sc.nextLine();
             }
         
         } while (status);
