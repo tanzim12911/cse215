@@ -1,6 +1,6 @@
-package ch_12.q3;
+package ch_12.q4;
 
-public class q3 {
+public class q4 {
     public static void main(String[] args) {
         Loan ln = new Loan();
         

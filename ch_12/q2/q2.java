@@ -1,4 +1,4 @@
-package ch_12;
+package ch_12.q2;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
