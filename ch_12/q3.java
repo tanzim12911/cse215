@@ -14,15 +14,15 @@ public class q3 {
         System.out.println("Enter an index: ");
 
         try {
-            returnIndexElement(arr, sc.nextInt());
-        } catch (Exception e) {
-            
+            System.out.println(returnIndexElement(arr, sc.nextInt()));
+        } catch (ArrayIndexOutOfBoundsException aofbe) {
+            System.out.println("Out of Bounds");
         }
     }
 
     static int returnIndexElement(int[] a, int n) throws ArrayIndexOutOfBoundsException {
         if (n >= a.length) {
-            throw new ArrayIndexOutOfBoundsException("ERROR");
+            throw new ArrayIndexOutOfBoundsException();
         }
         return a[n];
     }
