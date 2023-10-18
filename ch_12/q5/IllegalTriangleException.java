@@ -4,4 +4,7 @@ public class IllegalTriangleException extends Exception {
     IllegalTriangleException (String s) {
         super(s);
     }
+    IllegalTriangleException(Throwable cause) {
+        super(cause);
+    }
 }
