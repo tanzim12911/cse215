@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Loan {
     private double annualInterestRate;
-    private int numOfYears;
+    private int numberOfYears;
     private double loanAmount;
     private Date loanDate;
 
@@ -14,7 +14,7 @@ public class Loan {
 
     public Loan(double annualInterestRate, int numOfyears, double loanAmount) {
         this.annualInterestRate = annualInterestRate;
-        this.numOfYears = numOfYears;
+        this.numberOfYears = numberOfYears;
         this.loanAmount = loanAmount;
         loanDate = new Date();
     }
@@ -27,12 +27,12 @@ public class Loan {
         this.annualInterestRate = annualInterestRate;
     }
 
-    public int getNumOfYears() {
-        return numOfYears;
+    public int getNumberOfYears() {
+        return numberOfYears;
     }
 
-    public void setNumOfYears(int numOfyears) {
-        this.numOfYears = numOfyears;
+    public void setNumberOfYears(int numberOfYears) {
+        this.numberOfYears = numberOfYears;
     }
 
     public double getLoanAmount() {
@@ -56,7 +56,5 @@ public class Loan {
         double monthlyPayment = loanAmount * monthlyInterestRate / (1 -
             (1 / Math.pow(1 + monthlyInterestRate, numberOfYears * 12)));
         return monthlyPayment;
-            }
-
-    
+    }
 }
