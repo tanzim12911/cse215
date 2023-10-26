@@ -1,3 +1,5 @@
+package assignment_03.q1;
+
 class SuperClass
 {
     protected int x = 0;
