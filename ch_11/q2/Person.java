@@ -42,4 +42,12 @@ public class Person {
     public void setEmailAddress(String emailAddress) {
         this.emailAddress = emailAddress;
     }
+
+    @Override
+    public String toString() {
+        return "Person [name=" + name + ", address=" + address + ", phoneNum=" + phoneNum + ", emailAddress="
+                + emailAddress + "]";
+    }
+
+    
 }
