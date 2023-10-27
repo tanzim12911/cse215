@@ -4,8 +4,6 @@ public class Faculty extends Employee {
     private String officeHour;
     private String rank;
 
-    Faculty()
-
     public String getOfficeHour() {
         return officeHour;
     }
