@@ -28,7 +28,7 @@ public class Staff extends Employee{
 
     @Override
     public String toString() {
-        return "Staff [title=" + title + "]";
+        return "Staff [name=" + this.getName() + "]";
     }
 
     
