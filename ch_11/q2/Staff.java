@@ -13,8 +13,9 @@ public class Staff extends Employee{
         this.title = title;
     }
 
-    Staff(String office, double salary, MyDate dateHired) {
-        
+    public Staff(String office, double salary, MyDate dateHired, String title) {
+        super(office, salary, dateHired);
+        this.title = title;
     }
 
     public String getTitle() {
