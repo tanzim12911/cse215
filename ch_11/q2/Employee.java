@@ -36,4 +36,11 @@ public class Employee extends Person {
     public void setDateHired(MyDate dateHired) {
         this.dateHired = dateHired;
     }
+
+    @Override
+    public String toString() {
+        return "Employee [office=" + office + ", salary=" + salary + ", dateHired=" + dateHired + "]";
+    }
+
+    
 }
