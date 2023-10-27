@@ -29,4 +29,10 @@ public class Faculty extends Employee {
     public void setOfficeHour(String officeHour) {
         this.officeHour = officeHour;
     }
+    @Override
+    public String toString() {
+        return "Faculty [officeHour=" + officeHour + ", rank=" + rank + "]";
+    }
+
+    
 }
