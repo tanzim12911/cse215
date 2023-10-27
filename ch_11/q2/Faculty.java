@@ -31,7 +31,7 @@ public class Faculty extends Employee {
     }
     @Override
     public String toString() {
-        return "Faculty [officeHour=" + officeHour + ", rank=" + rank + "]";
+        return "Faculty [name=" + this.getName() + "]";
     }
 
     
