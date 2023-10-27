@@ -12,8 +12,13 @@ public class Student extends Person {
         this.STATUS = STATUS;
     }
 
-    public Student(String name, String address, String phoneNumber, String emailAddress, String STATUS) {
-        super(name, address, phoneNumber, emailAddress);
+    public Student(String name, String address, int phoneNum, String emailAddress, String STATUS) {
+        super(name, address, phoneNum, emailAddress);
         this.STATUS = STATUS;
+    }
+
+    @Override
+    public String toString() {
+        return "Student [STATUS=" + STATUS + "]";
     }
 }
