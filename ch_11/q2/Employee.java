@@ -39,7 +39,7 @@ public class Employee extends Person {
 
     @Override
     public String toString() {
-        return "Employee [office=" + office + ", salary=" + salary + ", dateHired=" + dateHired + "]";
+        return "Employee [name=" + this.getName() + "]";
     }
 
     
