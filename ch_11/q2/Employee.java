@@ -17,8 +17,6 @@ public class Employee extends Person {
         this.dateHired = dateHired;
     }
 
-    Employee()
-
     public String getOffice() {
         return office;
     }
