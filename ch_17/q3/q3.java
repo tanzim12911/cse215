@@ -12,9 +12,10 @@ public class q3 {
         DataInputStream input = new DataInputStream(infile);
 
         int sum = 0;
+        int numOfInt = input.available();
 
         try {
-            for (int i = 0; i < input.available(); i++) {
+            for (int i = 0; i < numOfInt; i++) {
                 int n = input.readInt();
                 sum += n;
             }
