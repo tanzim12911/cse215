@@ -49,7 +49,7 @@ public class q15 {
         java.util.Arrays.sort(numList);
 
         for (int i = 0; i < numList.length; i++) {
-            System.out.println(numList[i] + " ");
+            System.out.print(numList[i] + " ");
         }
 
 
