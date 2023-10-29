@@ -2,7 +2,6 @@ package ch_12.q15;
 
 import java.io.File;
 import java.io.FileWriter;
-import java.io.IOException;
 import java.util.Scanner;
 
 public class q15 {
@@ -22,8 +21,9 @@ public class q15 {
 
             for (int i = 0; i < 100; i++) {
                 f1w.write((int) Math.random() * 100000 + " ");
-                f1w.close();
             }
+
+            f1w.close();
 
         } catch (Exception e) {
             System.out.println(e);
