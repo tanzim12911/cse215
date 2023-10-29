@@ -15,7 +15,8 @@ public class q3 {
 
         try {
             for (int i = 0; i < input.available(); i++) {
-                sum += input.readInt();
+                int n = input.readInt();
+                sum += n;
             }
         }
         catch(EOFException e) {
