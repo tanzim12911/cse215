@@ -11,7 +11,7 @@ public class q14 {
         
         System.out.print("Enter file: ");
 
-        String location = "C:/Workspace/cse215/cse215/ch_12/q14"+ "/sc.nextLine()";
+        String location = "C:/Workspace/cse215/cse215/ch_12/q14/"+ sc.nextLine();
 
         File f1 = new File(location);
 
