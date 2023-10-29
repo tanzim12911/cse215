@@ -20,11 +20,15 @@ public class q1 {
 
         Scanner read = new Scanner("marksheet.txt");
 
-        while (read.hasNext()) {
+        try {
+            while (read.hasNext()) {
             String name = read.next();
             int score = read.nextInt();
 
             System.out.println("Name: " + name + "  Score: " + score);
+        }
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 }
