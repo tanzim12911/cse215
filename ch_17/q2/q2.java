@@ -35,7 +35,7 @@ public class q2 {
             FileInputStream input = new FileInputStream(f1);
 
             while(input.read() != -1) {
-                System.out.println(input.read() + "");
+                System.out.print(input.read() + "");
             }
         }
         catch (IOException e) {
