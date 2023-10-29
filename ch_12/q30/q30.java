@@ -21,7 +21,7 @@ public class q30 {
         System.out.print("Enter a file name: ");// My Test file is: testfile.txt
 
         String fileName = in.next();
-        File workingDir = new File("C:/Workspace/cse215/cse215/ch_12/q30/" + fileName);
+        File workingDir = new File("C:/Workspace/cse215/cse215/ch_12/q30/testfile.txt");
 
         File file = new File(workingDir, fileName);
 
