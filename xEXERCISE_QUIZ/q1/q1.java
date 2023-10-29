@@ -19,7 +19,7 @@ public class q1 {
             e.printStackTrace();
         }
 
-        Scanner read = new Scanner(new File("marksheet.txt"));
+        Scanner read = new Scanner(new File("/marksheet.txt"));
 
         try {
             while (read.hasNext()) {
