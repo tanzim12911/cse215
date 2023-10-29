@@ -9,9 +9,9 @@ public class q1 {
         FileWriter file = new FileWriter("marksheet.txt", true);
 
         try {
-            file.write("Tamim 29\n");
-            file.write("Shakib 75\n");
-            file.write("Mahmudullah 30\n");
+            file.write("Tamim 29");
+            file.write("Shakib 75");
+            file.write("Mahmudullah 30");
             file.close();
         }
         catch (IOException e) {
@@ -21,7 +21,10 @@ public class q1 {
         Scanner read = new Scanner("marksheet.txt");
 
         while (read.hasNext()) {
-            System.out.println(read.nextLine());
+            String name = read.next();
+            double score = read.nextDouble();
+
+            System.out.println("Name: " + name + "  Score: " + score);
         }
     }
 }
