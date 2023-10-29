@@ -20,7 +20,8 @@ public class q15 {
             FileWriter f1w = new FileWriter(f1, true);
 
             for (int i = 0; i < 100; i++) {
-                f1w.write((int) Math.random() * 100000 + " ");
+                int randomNum = (int) Math.random() * 100000;
+                f1w.write(randomNum + " ");
             }
 
             f1w.close();
