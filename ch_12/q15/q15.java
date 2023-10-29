@@ -37,7 +37,7 @@ public class q15 {
 
             int i = 0;
 
-            while(input.hasNext()) {
+            while(input.hasNext() & i < 100) {
                 numList[i] = input.nextInt();
                 i++;
             }
