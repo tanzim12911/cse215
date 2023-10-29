@@ -1,6 +1,7 @@
 package xEXERCISE_QUIZ.q1;
 
 import java.io.IOException;
+import java.io.File;
 import java.io.FileWriter;
 import java.util.Scanner;
 
@@ -18,7 +19,7 @@ public class q1 {
             e.printStackTrace();
         }
 
-        Scanner read = new Scanner("marksheet.txt");
+        Scanner read = new Scanner(new File("marksheet.txt"));
 
         try {
             while (read.hasNext()) {
