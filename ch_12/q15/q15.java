@@ -20,7 +20,7 @@ public class q15 {
             FileWriter f1w = new FileWriter(f1, true);
 
             for (int i = 0; i < 100; i++) {
-                int randomNum = (int) Math.random() * 100000;
+                int randomNum = (int) (Math.random() * 100000);
                 f1w.write(randomNum + " ");
             }
 
@@ -30,6 +30,7 @@ public class q15 {
             System.out.println(e);
         }
 
+        
         try {
             Scanner input = new Scanner(f1);
 
