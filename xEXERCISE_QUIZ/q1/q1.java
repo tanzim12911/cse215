@@ -12,6 +12,7 @@ public class q1 {
             file.write("Tamim 29\n");
             file.write("Shakib 75\n");
             file.write("Mahmudullah 30\n");
+            file.close();
         }
         catch (IOException e) {
             e.printStackTrace();
