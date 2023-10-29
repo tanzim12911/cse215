@@ -12,6 +12,7 @@ public class q2 {
         if (!f1.exists()) {
             try {
                 f1.createNewFile();
+                System.out.println(f1.getAbsolutePath());
             }
             catch(IOException e) {
                 e.printStackTrace();
