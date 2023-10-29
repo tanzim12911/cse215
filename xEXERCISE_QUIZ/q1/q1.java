@@ -22,7 +22,7 @@ public class q1 {
 
         while (read.hasNext()) {
             String name = read.next();
-            double score = read.nextDouble();
+            double score = read.nextInt();
 
             System.out.println("Name: " + name + "  Score: " + score);
         }
