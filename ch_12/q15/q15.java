@@ -30,15 +30,26 @@ public class q15 {
             System.out.println(e);
         }
 
-        
+        int[] numList = new int[100];
+
         try {
             Scanner input = new Scanner(f1);
 
+            int i = 0;
+
             while(input.hasNext()) {
-                System.out.print(input.nextInt() + " ");
+                numList[i] = input.nextInt();
+                i++;
             }
+
         } catch (Exception e) {
             e.printStackTrace();
+        }
+
+        java.util.Arrays.sort(numList);
+
+        for (int i = 0; i < numList.length; i++) {
+            System.out.println(numList[i] + " ");
         }
 
 
