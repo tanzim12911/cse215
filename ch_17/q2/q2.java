@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class q2 {
     public static void main(String[] args) throws IOException {
-        File f1 = new File("src/ch_17/q2/Exercise17_02.dat");
+        File f1 = new File("ch_17/q2/Exercise17_02.dat");
 
         if (!f1.exists()) {
             try {
