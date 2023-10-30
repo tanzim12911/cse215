@@ -21,29 +21,29 @@ public class RandAccFile {
         f1.setLength(0);
 
         for (int i = 1; i <= 100; i++) {
-            f1.write(i);
+            f1.writeInt(i);
         }
 
         System.out.println("Length: " + f1.length());
 
         f1.seek(0);
-        System.out.println("1st number: " + f1.read());
+        System.out.println("1st number: " + f1.readInt());
 
         f1.seek(1 * 4);
-        System.out.println("2nd number: " + f1.read());
+        System.out.println("2nd number: " + f1.readInt());
 
         f1.seek(5 * 4);
-        System.out.println("6th number: " + f1.read());
+        System.out.println("6th number: " + f1.readInt());
 
         f1.seek(6 * 4);
-        f1.write(700);
+        f1.writeInt(700);
 
         f1.seek(f1.length());
-        f1.write(101);
+        f1.writeInt(101);
 
         System.out.println("New Length: " + f1.length());
 
         f1.seek(6 * 4);
-        System.out.println("Modified 7th number: " + f1.read());
+        System.out.println("Modified 7th number: " + f1.readInt());
     }
 }
