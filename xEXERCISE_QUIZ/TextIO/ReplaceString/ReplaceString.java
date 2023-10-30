@@ -33,7 +33,7 @@ public class ReplaceString {
             while (sc2.hasNext()) {
                 String n_s1 = sc2.next();
 
-                System.out.println(n_s1 + "\n");
+                System.out.println(n_s1);
             }
         }
         catch (Exception e) {
