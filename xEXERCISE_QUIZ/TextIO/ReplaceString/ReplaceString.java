@@ -21,7 +21,7 @@ public class ReplaceString {
             Scanner sc = new Scanner(f1);
 
             while(sc.hasNext()) {
-                String s1 = sc.next();
+                String s1 = sc.nextLine();
                 String s2 = s1.replaceAll("CSE", "EEE");
                 file2.write(s2 + "\n");
                 file2.close();
