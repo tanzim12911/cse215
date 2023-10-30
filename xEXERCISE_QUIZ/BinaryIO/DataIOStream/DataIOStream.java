@@ -8,11 +8,11 @@ public class DataIOStream {
             FileOutputStream outFile = new FileOutputStream("temp1.dat");
             DataOutputStream output = new DataOutputStream(outFile);
 
-            output.writeUTF("AlissonBecker");
+            output.writeUTF("Alisson Becker");
             output.writeInt(91);
-            output.writeUTF("VanDijk");
+            output.writeUTF("Van Dijk");
             output.writeInt(89);
-            output.writeUTF("MoSalah");
+            output.writeUTF("Mo Salah");
             output.writeInt(89);
 
             FileInputStream inpFile = new FileInputStream("temp1.dat");
