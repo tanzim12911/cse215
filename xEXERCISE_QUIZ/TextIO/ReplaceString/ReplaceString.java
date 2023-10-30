@@ -32,5 +32,8 @@ public class ReplaceString {
                 System.out.println(n_s1 + "\n");
             }
         }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }
