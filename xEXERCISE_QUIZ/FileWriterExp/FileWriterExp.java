@@ -18,7 +18,7 @@ public class FileWriterExp {
             Scanner sc = new Scanner(f1);
 
             while(sc.hasNext()) {
-                String name = sc.nextLine();
+                String name = sc.next();
                 int score = sc.nextInt();
 
                 System.out.println("Name: " + name + "      | Score: " + score);
