@@ -12,7 +12,7 @@ public class Triangle {
     }
 
     Triangle(double side1, double side2, double side3) throws IllegalTriangleException {
-        if (side1 + side2 < side3 || side2 + side3 < side1 || side1 + side3 < side2) {
+        if ((side1 + side2) < side3 || (side2 + side3) < side1 || (side1 + side3) < side2) {
             throw new IllegalTriangleException("The sum of any two sides of a triangle must be greater than the other side");
         }
         else {
