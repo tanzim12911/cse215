@@ -6,7 +6,7 @@ public class ExceptionHandlingExp {
             Triangle t1 = new Triangle(4, 5, 2);
         }
         catch (IllegalTriangleException e) {
-            e.printStackTrace();
+            System.out.println(e.toString());
         }
     }
 }
