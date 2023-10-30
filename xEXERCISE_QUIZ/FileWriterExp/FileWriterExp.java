@@ -9,9 +9,9 @@ public class FileWriterExp {
         File f1 = new File("Marksheet.txt");
         FileWriter file = new FileWriter(f1);
 
-        file.write("Alisson Becker 91\n");
-        file.write("Van Dijk 89\n");
-        file.write("Mo Salah 89\n");
+        file.write("AlissonBecker 91\n");
+        file.write("VanDijk 89\n");
+        file.write("MoSalah 89\n");
         file.close();
 
         try {
