@@ -24,7 +24,5 @@ public class Task2 {
                 duplicateValues.add(entry.getValue());
             }
         }
-            
-        
     }
 }
