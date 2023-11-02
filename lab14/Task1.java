@@ -27,11 +27,11 @@ public class Task1 {
                 count++;
             }
             if(count >= 2) {
-                index = i + 1;
+                System.out.println("Second ocurrance of " + arrL.get(i) + " is " + (i + 1));
             }
         }
 
-        System.out.println("Second ocurrance of " + arrL.get(index - 1) + " is " + index);
+        
 
     }
 }
