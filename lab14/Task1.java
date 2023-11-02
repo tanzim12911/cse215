@@ -21,18 +21,13 @@ public class Task1 {
 
         String targetElement = "Shakib";
         int firstIndex = arrL.indexOf(targetElement);
-        if (firstIndex != -1) {
             int secondIndex = arrL.subList(firstIndex + 1, arrL.size()).indexOf(targetElement);
             if (secondIndex != -1) {
-                // Adjust the index to account for the sublist's offset
                 secondIndex += firstIndex + 1;
                 System.out.println("Index of the second occurrence of " + targetElement + " is " + secondIndex);
             } else {
                 System.out.println("Second occurrence of " + targetElement + " not found in the ArrayList");
             }
-        } else {
-            System.out.println(targetElement + " not found in the ArrayList");
         }
         
     }
-}
