@@ -17,8 +17,7 @@ public class Task1 {
         arrL.add("Shakib");
         arrL.add("Shoriful");
 
-        // check if Tamim is in the list
-
         System.out.println("Is Tamim in the list? " + arrL.contains("Tamim"));
+
     }
 }
