@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class ArrayListExample {
+public class test {
     public static void main(String[] args) {
         // Create an ArrayList and fill it with 10 items
         ArrayList<String> myList = new ArrayList<>();
