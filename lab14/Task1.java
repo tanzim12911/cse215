@@ -19,14 +19,19 @@ public class Task1 {
 
         System.out.println("Is Tamim in the list? " + arrL.contains("Tamim"));
 
-        for (int i = 0; i < arrL.size(); i++) {
-            String element = arrL.get(i);
-            int firstOccurrenceIndex = arrL.indexOf(element);
-            int secondOccurrenceIndex = arrL.indexOf(element);
-
-            if (secondOccurrenceIndex != -1) {
-                System.out.println("Second occurrence of " + element + " is at index " + secondOccurrenceIndex);
+        String targetElement = "Shakib";
+        int firstIndex = arrL.indexOf(targetElement);
+        if (firstIndex != -1) {
+            int secondIndex = arrL.subList(firstIndex + 1, arrL.size()).indexOf(targetElement);
+            if (secondIndex != -1) {
+                // Adjust the index to account for the sublist's offset
+                secondIndex += firstIndex + 1;
+                System.out.println("Index of the second occurrence of " + targetElement + " is " + secondIndex);
+            } else {
+                System.out.println("Second occurrence of " + targetElement + " not found in the ArrayList");
             }
+        } else {
+            System.out.println(targetElement + " not found in the ArrayList");
         }
         
     }
