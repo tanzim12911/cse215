@@ -17,8 +17,10 @@ public class Task1 {
         arrL.add("Shakib");
         arrL.add("Shoriful");
 
+        // Check if Tamim is in the list
         System.out.println("Is Tamim in the list? " + arrL.contains("Tamim"));
 
+        // Find the index of the second occurrence of Shakib
         int count = 1;
 
         for (int i = 0, j = 1; i < arrL.size() - 1; i++, j++) {
@@ -31,8 +33,6 @@ public class Task1 {
             }
             count = 1;
         }
-
-        
 
     }
 }
