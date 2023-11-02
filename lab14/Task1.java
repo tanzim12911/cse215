@@ -19,13 +19,15 @@ public class Task1 {
 
         System.out.println("Is Tamim in the list? " + arrL.contains("Tamim"));
 
-        int secondOccurrenceIndex = arrL.indexOf("Shakib");
+        for (int i = 0; i < arrL.size(); i++) {
+            String element = arrL.get(i);
+            int firstOccurrenceIndex = arrL.indexOf(element);
+            int secondOccurrenceIndex = arrL.indexOf(element, firstOccurrenceIndex + 1);
 
-    // If the second occurrence index is not equal to -1, then the element occurs twice in the list.
-        if (secondOccurrenceIndex != -1) {
-            System.out.println("The index of the second occurrence of the element 'Shakib' in the list is " + secondOccurrenceIndex);
-        } else {
-            System.out.println("The element 'Shakib' does not occur twice in the list.");
-        }   
+            if (secondOccurrenceIndex != -1) {
+                System.out.println("Second occurrence of " + element + " is at index " + secondOccurrenceIndex);
+            }
+        }
+        
     }
 }
