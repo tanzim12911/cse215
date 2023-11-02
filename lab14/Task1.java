@@ -22,7 +22,7 @@ public class Task1 {
         for (int i = 0; i < arrL.size(); i++) {
             String element = arrL.get(i);
             int firstOccurrenceIndex = arrL.indexOf(element);
-            int secondOccurrenceIndex = arrL.indexOf(element, firstOccurrenceIndex + 1);
+            int secondOccurrenceIndex = arrL.indexOf(element);
 
             if (secondOccurrenceIndex != -1) {
                 System.out.println("Second occurrence of " + element + " is at index " + secondOccurrenceIndex);
