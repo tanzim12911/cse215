@@ -20,7 +20,6 @@ public class Task1 {
         System.out.println("Is Tamim in the list? " + arrL.contains("Tamim"));
 
         int count = 1;
-        int index = 0;
 
         for (int i = 0; i < arrL.size() - 1; i++) {
             if(arrL.get(i) == arrL.get(i + 1)) {
