@@ -21,8 +21,8 @@ public class Task1 {
 
         int count = 1;
 
-        for (int i = 0; i < arrL.size() - 1; i++) {
-            if(arrL.get(i).equals(arrL.get(i + 1))) {
+        for (int i = 0, j = 1; i < arrL.size() - 1; i++, j++) {
+            if(arrL.get(i).equals(arrL.get(j))) {
                 count++;
             }
             if(count >= 2) {
