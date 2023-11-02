@@ -28,6 +28,7 @@ public class Task1 {
             if(count == 2) {
                 System.out.println("Second ocurrance of " + arrL.get(i) + " is " + (i + 1));
             }
+            count = 1;
         }
 
         
