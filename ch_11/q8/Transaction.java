@@ -20,6 +20,7 @@ public class Transaction {
         this.description = description;
     }
     
+    
     public Date getDate() {
         return date;
     }
@@ -32,6 +33,28 @@ public class Transaction {
     public void setType(char type) {
         this.type = type;
     }
-
+    public double getAmount() {
+        return amount;
+    }
+    public void setAmount(double amount) {
+        this.amount = amount;
+    }
+    public double getBalance() {
+        return balance;
+    }
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+    public String getDescription() {
+        return description;
+    }
+    public void setDescription(String description) {
+        this.description = description;
+    }
+    @Override
+    public String toString() {
+        return "Transaction [date=" + date + ", type=" + type + ", amount=" + amount + ", balance=" + balance
+                + ", description=" + description + "]";
+    }
     
 }
