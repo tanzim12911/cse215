@@ -32,7 +32,7 @@ public class Account {
     public double getBalance() {
         return balance;
     }
-    public double annualInterestRate() {
+    public double getAnnualInterestRate() {
         return annualInterestRate;
     }
     public String getName() {
@@ -70,10 +70,8 @@ public class Account {
     }
     public void deposit(double amount) {
         balance += amount;
-        transactions.add('D', amount, balance, name);
+        transactions.add(new Transaction('D', amount, balance, name));
     }
-
-
 
 
 
