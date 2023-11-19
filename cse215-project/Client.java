@@ -4,6 +4,10 @@ public class Client {
     private String pin;
     private double balance;
     
+    public Client() {
+
+    }
+
     public Client(String name, int phoneNum, String pin, double balance) {
         this.name = name;
         this.phoneNum = phoneNum;
