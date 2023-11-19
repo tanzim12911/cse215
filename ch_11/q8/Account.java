@@ -38,6 +38,9 @@ public class Account {
     public String getName() {
         return name;
     }
+    public ArrayList<Transaction> getTransactions() {
+        return transactions;
+    }
 
     public void setID(int id) {
         this.id = id;
