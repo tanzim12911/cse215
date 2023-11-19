@@ -1,5 +1,6 @@
 package ch_11.q8;
 
+import java.util.ArrayList;
 import java.util.Date;
 
 public class Account {
@@ -8,6 +9,7 @@ public class Account {
     private double annualInterestRate;
     private Date dateCreated;
     private String name;
+    private ArrayList<Transaction> transactions = new ArrayList<Transaction>();
     
     Account() {
         id = 0;
@@ -33,6 +35,9 @@ public class Account {
     public double annualInterestRate() {
         return annualInterestRate;
     }
+    public String getName() {
+        return name;
+    }
 
     public void setID(int id) {
         this.id = id;
@@ -43,6 +48,10 @@ public class Account {
     public void setAnnualInterestRate(double annualInterestRate) {
         this.annualInterestRate = annualInterestRate;
     }
+    public void setName(String name) {
+        this.name = name;
+    }
+
 
     public Date getDateCreated() {
         return dateCreated;
@@ -57,9 +66,11 @@ public class Account {
     }
     public void withdraw(double amount) {
         balance -= amount;
+        transactions.add(new Transaction('W', amount, balance, name));
     }
     public void deposit(double amount) {
         balance += amount;
+        transactions.add('D', amount, balance, name);
     }
 
 
