@@ -19,11 +19,13 @@ public class Account {
     Account(int id, double balance) {
         this.id = id;
         this.balance = balance;
+        dateCreated = new Date();
     }
     Account(String name, int id, double balance) {
         this.id = id;
         this.balance = balance;
         this.name = name;
+        dateCreated = new Date();
     }
 
     public int getID() {

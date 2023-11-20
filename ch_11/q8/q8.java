@@ -16,6 +16,7 @@ public class q8 {
 
         System.out.println("Name: " + ac.getName());
         System.out.println("Interest Rate: " + ac.getAnnualInterestRate());
+        System.out.println("Date Created: " + ac.getDateCreated());
         System.out.println("Balance: " + ac.getBalance());
         System.out.println("Transaction Summary: ");
         System.out.println(ac.getTransactions());
