@@ -11,14 +11,17 @@ public class TestClass {
 
         System.out.println("Initial Plants:");
         display(p);
+        System.out.println();
 
         System.out.println("Plant added: ");
         add(p, new Flower("Sunflower", "Yellow", true, false));
         display(p);
+        System.out.println();
 
         System.out.println("Plant removed: ");
         remove(p, "Basil");
         display(p);
+        System.out.println();
 
         System.out.println("Plant searched: ");
         System.out.println(search(p, "Daffodil"));
