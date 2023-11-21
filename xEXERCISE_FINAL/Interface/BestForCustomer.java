@@ -35,18 +35,7 @@ public class BestForCustomer implements Discountable {
     @Override
     public double discountedPrice(double price) {
         double percentageDiscount = price - (price * percentage) / 100;
-        double threshlodDiscount;
-
-        if(price >= 10000) {
-            threshlod = 10;
-
-            threshlodDiscount = price - discount - (price * threshlod) / 100;
-        }
-        else {
-            threshlod = 0;
-
-            threshlodDiscount = price - discount - (price * threshlod) / 100;
-        }
+        double threshlodDiscount = price - discount - (price * threshlod) / 100;
 
         return Math.max(percentageDiscount, threshlodDiscount);
     }
