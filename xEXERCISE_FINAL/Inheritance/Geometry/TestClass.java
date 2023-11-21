@@ -14,7 +14,7 @@ public class TestClass {
         System.out.print("Enter the color of the triangle: ");
         String color = sc.next();
 
-        System.out.println("Is the triangle filled? ");
+        System.out.println("Is the triangle filled? (true/false)");
         boolean filled = sc.nextBoolean();
 
         Triangle t = new Triangle(s1, s2, s3);
