@@ -47,10 +47,8 @@ public class TestClass {
             if(plants[i] != null && plants[i].getName().equals(n)) {
                 return plants[i];
             }
-            else {
-                System.out.println(n + " was not found");
-            }
         }
+        System.out.println(n + " was not found");
         return null;
     }
 
