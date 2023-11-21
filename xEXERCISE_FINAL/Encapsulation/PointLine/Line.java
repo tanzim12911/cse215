@@ -12,11 +12,11 @@ public class Line {
         this.end = end;
     }
     public Line(int x1, int y1, int x2, int y2) {
-        this.start.setX(x1);
-        this.start.setY(y1);
+        start.setX(x1);
+        start.setY(y1);
 
-        this.end.setX(x2);
-        this.end.setY(y2);
+        end.setX(x2);
+        end.setY(y2);
     }
     
     
