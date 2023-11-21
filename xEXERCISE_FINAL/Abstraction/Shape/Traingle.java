@@ -33,5 +33,12 @@ public class Traingle extends Shape {
     public double getArea() {
         return 0.5 * base * height;
     }
+
+    @Override
+    public String toString() {
+        return "Traingle [base=" + base + ", height=" + height + "]";
+    }
+
+    
     
 }
