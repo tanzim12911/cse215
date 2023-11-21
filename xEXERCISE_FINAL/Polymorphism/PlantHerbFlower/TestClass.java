@@ -59,7 +59,9 @@ public class TestClass {
 
     static void display(Plant[] plants) {
         for(Plant p : plants) {
-            System.out.println(p.toString());
+            if(p != null) {
+                System.out.println(p.toString());
+            }
         }
     }
 }
