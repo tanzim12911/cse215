@@ -49,9 +49,9 @@ public class TestClass {
             }
             else {
                 System.out.println(n + " was not found");
-                return null;
             }
         }
+        return null;
     }
 
     static void display(Plant[] plants) {
