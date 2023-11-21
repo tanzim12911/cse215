@@ -4,9 +4,9 @@ public class Plant {
     private String name;
     private String color;
     
-    public Plant() {
+    Plant() {
     }
-    public Plant(String name, String color) {
+    Plant(String name, String color) {
         this.name = name;
         this.color = color;
     }
