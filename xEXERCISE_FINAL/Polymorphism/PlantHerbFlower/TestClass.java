@@ -46,7 +46,7 @@ public class TestClass {
         Plant p = null;
 
         for(int i = 0; i < plants.length; i++) {
-            if(plants[i].getName().equals(n)) {
+            if(plants[i] != null && plants[i].getName().equals(n)) {
                 p = plants[i];
             }
             else {
