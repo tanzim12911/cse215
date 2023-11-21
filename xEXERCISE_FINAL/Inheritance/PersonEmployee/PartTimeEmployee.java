@@ -39,7 +39,7 @@ public class PartTimeEmployee extends Employee {
     }
 
     public double salary() {
-        return 15000;
+        return hours * rate;
     }
   
 }
