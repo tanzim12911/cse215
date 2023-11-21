@@ -33,15 +33,6 @@ public class ThreshlodDiscount implements Discountable {
     @Override
     public double discountedPrice(double price) {
         
-        if(price >= 10000) {
-            threshlod = 10;
-
-            return price - discount - (price * threshlod) / 100;
-        }
-        else {
-            threshlod = 0;
-
-            return price - discount - (price * threshlod) / 100;
-        }
+        return price - discount - (price * threshlod) / 100;
     }
 }
