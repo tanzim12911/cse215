@@ -29,7 +29,7 @@ public class Flower extends Plant {
     }
     @Override
     public String toString() {
-        return "Flower [hasSmell=" + hasSmell + ", hasThorn=" + hasThorn + "]";
+        return "Flower [name=" + getName() + ", color=" + getColor() + ", hasSmell=" + hasSmell + ", hasThorn=" + hasThorn + "]";
     }
     
 }

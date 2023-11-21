@@ -29,7 +29,7 @@ public class Herb extends Plant {
     }
     @Override
     public String toString() {
-        return "Herb [isMedecinal=" + isMedecinal + ", season=" + season + "]";
+        return "Herb [name=" + getName() + ", color=" + getColor() + ", isMedecinal= "+ isMedecinal +", season=" + season + "]";
     }
     
     
