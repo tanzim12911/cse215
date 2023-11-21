@@ -9,6 +9,6 @@ public class TestClass {
         System.out.println("Threshlod Discount: " + td.discountedPrice(12500));
 
         BestForCustomer bfc = new BestForCustomer(10, 10, 500);
-        System.out.println("BEst Price for Customer: " + bfc.getDiscount());
+        System.out.println("Best Price for Customer: " + bfc.discountedPrice(12500));
     }
 }
