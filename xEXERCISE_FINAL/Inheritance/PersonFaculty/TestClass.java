@@ -8,6 +8,7 @@ public class TestClass {
         f.setAge(38);
         f.setSalary(150000);
 
-        
+        f.toString();
+
     }
 }
