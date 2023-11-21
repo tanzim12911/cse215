@@ -36,4 +36,10 @@ public class Line {
     public double length() {
         return start.distance(end);
     }
+    @Override
+    public String toString() {
+        return "Line [start=" + start + ", end=" + end + "]";
+    }
+
+    
 }

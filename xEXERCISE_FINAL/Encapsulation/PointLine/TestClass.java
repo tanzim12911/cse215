@@ -5,6 +5,7 @@ public class TestClass {
         Line l1 = new Line(4, 2, 8, 12);
 
         System.out.println(l1.length());
+        l1.toString();
     }
 
     
