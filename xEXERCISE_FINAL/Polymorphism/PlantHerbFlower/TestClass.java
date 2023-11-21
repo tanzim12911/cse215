@@ -52,8 +52,6 @@ public class TestClass {
                 return null;
             }
         }
-
-        return p;
     }
 
     static void display(Plant[] plants) {
