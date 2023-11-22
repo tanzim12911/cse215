@@ -35,7 +35,7 @@ public class SecondOcurrance {
             }
         }
 
-        System.out.println("Second Ocurrance of " + list.get(index_1) +  "Index: " + index_2);
+        System.out.println("Second Ocurrance of " + list.get(index_1) +  " Index: " + index_2);
 
     }
 }
