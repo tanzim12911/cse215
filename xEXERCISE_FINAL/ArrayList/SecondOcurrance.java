@@ -17,18 +17,20 @@ public class SecondOcurrance {
         list.add(9);
         list.add(10);
 
-        int index = 0;
+        int index_1 = 0;
+        int index_2 = 0;
 
         for (int i = 0; i < list.size() - 1; i++) {
             for (int j = 1; j < list.size(); j++) {
                 if(list.get(i) == list.get(j)) {
-                    index = j;
+                    index_1 = i;
+                    index_2 = j;
                     break;
                 }
             }
         }
 
-        System.out.println("Second Ocurrance Index: " + index);
+        System.out.println("Second Ocurrance of " + list.get(index_1) +  "Index: " + index_2);
 
     }
 }
