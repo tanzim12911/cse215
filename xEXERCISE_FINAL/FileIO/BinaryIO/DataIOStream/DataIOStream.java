@@ -27,8 +27,8 @@ public class DataIOStream {
                 System.out.println(value + " ");
             }
 
-        } catch (Exception e) {
-            // TODO: handle exception
+        } catch (IOException e) {
+            System.out.println(e.toString());
         }
     }
 }
