@@ -18,7 +18,7 @@ public class FileIOStreamLoop {
 
         for (int i = 1; i <= n; i++) {
             System.out.print("Student " + i + " Name: ");
-            output.writeUTF(sc.nextLine());
+            output.writeUTF(sc.next());
             output.writeInt(sc.nextInt());
         }
 
