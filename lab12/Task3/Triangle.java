@@ -29,7 +29,7 @@ public class Triangle extends GeometricObject {
     public void setSides(double side1, double side2, double side3) throws IllegalTriangleException {
         
         if((this.side1 + this.side2 < side3) || (this.side1 + this.side3 < side2) || (this.side2 + this.side3 < side1)) {
-            throw new IllegalTriangleException("The sum of any two sides is not greater than the third side");
+            throw new IllegalTriangleException(side1, side2, side3);
         }
         else{
             this.side1 = side1;
