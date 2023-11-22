@@ -24,7 +24,7 @@ public class DataIOStream {
             int value;
 
             while ((value = input.read()) != -1) {
-                System.out.println(value + " ");
+                System.out.print(value + " ");
             }
 
         } catch (IOException e) {
