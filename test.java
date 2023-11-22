@@ -1,42 +1,38 @@
-import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class test {
     public static void main(String[] args) {
-        // Create an ArrayList and fill it with 10 items
-        ArrayList<String> myList = new ArrayList<>();
-        myList.add("Item1");
-        myList.add("Item2");
-        myList.add("Item3");
-        myList.add("Item4");
-        myList.add("Item5");
-        myList.add("Item2"); // Adding a duplicate item for the second occurrence
-        myList.add("Item6");
-        myList.add("Item7");
-        myList.add("Item8");
-        myList.add("Item9");
+        // Create a HashMap
+        Map<String, String> hashMap = new HashMap<>();
 
-        // Check if the ArrayList contains a given element
-        String searchElement = "Item3";
-        if (myList.contains(searchElement)) {
-            System.out.println("ArrayList contains " + searchElement);
-        } else {
-            System.out.println("ArrayList does not contain " + searchElement);
+        // Fill it up with key-value pairs
+        hashMap.put("A", "Apple");
+        hashMap.put("B", "Banana");
+        hashMap.put("C", "Cherry");
+        hashMap.put("D", "Date");
+        hashMap.put("E", "Apple");  // Duplicate value
+        hashMap.put("F", "Fig");
+        hashMap.put("G", "Grapes");
+        hashMap.put("H", "Apple");  // Duplicate value
+
+        // Print the values with duplicate copies
+        findAndPrintDuplicates(hashMap);
+    }
+
+    private static void findAndPrintDuplicates(Map<String, String> map) {
+        Map<String, Integer> countMap = new HashMap<>();
+
+        // Count occurrences of each value
+        for (String value : map.values()) {
+            countMap.put(value, countMap.getOrDefault(value, 0) + 1);
         }
 
-        // Find the index of the second occurrence of an element in the ArrayList
-        String targetElement = "Item2";
-        int firstIndex = myList.indexOf(targetElement);
-        if (firstIndex != -1) {
-            int secondIndex = myList.subList(firstIndex + 1, myList.size()).indexOf(targetElement);
-            if (secondIndex != -1) {
-                // Adjust the index to account for the sublist's offset
-                secondIndex += firstIndex + 1;
-                System.out.println("Index of the second occurrence of " + targetElement + " is " + secondIndex);
-            } else {
-                System.out.println("Second occurrence of " + targetElement + " not found in the ArrayList");
+        // Print values with duplicate copies
+        for (Map.Entry<String, Integer> entry : countMap.entrySet()) {
+            if (entry.getValue() > 1) {
+                System.out.println("Duplicate value: " + entry.getKey());
             }
-        } else {
-            System.out.println(targetElement + " not found in the ArrayList");
         }
     }
 }
