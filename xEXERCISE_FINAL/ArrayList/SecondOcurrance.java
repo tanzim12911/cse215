@@ -19,12 +19,17 @@ public class SecondOcurrance {
 
         int index_1 = 0;
         int index_2 = 0;
+        boolean found = false;
 
         for (int i = 0; i < list.size() - 1; i++) {
             for (int j = 1; j < list.size(); j++) {
                 if(list.get(i) == list.get(j)) {
                     index_1 = i;
                     index_2 = j;
+                    found = true;
+                    break;
+                }
+                if(found) {
                     break;
                 }
             }
