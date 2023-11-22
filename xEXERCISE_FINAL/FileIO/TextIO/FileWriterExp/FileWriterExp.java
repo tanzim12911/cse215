@@ -20,11 +20,11 @@ public class FileWriterExp {
         Scanner read = new Scanner(f1);
 
         while(read.hasNext()) {
-            String first_name = read.nextLine();
-            //String last_name = read.next();
+            String first_name = read.next();
+            String last_name = read.next();
             int score = read.nextInt();
             
-            System.out.println("First Name: " + first_name + " | Score: " + score);
+            System.out.println("First Name: " + first_name + " | Last Name: " + last_name + " | Score: " + score);
         }
 
 
