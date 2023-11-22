@@ -34,8 +34,18 @@ public class Task2 {
             i++;
         }
 
-        for (int i = 0; i < quiz.length; i++) {
-            
+        int highScore = 0;
+        int highIndex = 0;
+
+        for (int j = 0; j < quiz.length; j++) {
+            System.out.println(quiz[j].toString());
+
+            if(quiz[j].getMark() > highScore) {
+                highScore = quiz[j].getMark();
+                highIndex = j;
+            }
         }
+
+        System.out.println("Highest mark obtained by ID: " + quiz[highIndex].getId());
     }
 }
