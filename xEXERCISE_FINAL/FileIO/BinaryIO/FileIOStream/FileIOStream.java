@@ -17,8 +17,8 @@ public class FileIOStream {
         FileInputStream infile = new FileInputStream("temp1.dat");
         DataInputStream input = new DataInputStream(infile);
 
-        System.out.println("Name: " + input.readUTF() + "Score: " + input.readInt());
-        System.out.println("Name: " + input.readUTF() + "Score: " + input.readInt());
-        System.out.println("Name: " + input.readUTF() + "Score: " + input.readInt());
+        System.out.println("Name: " + input.readUTF() + " | Score: " + input.readInt());
+        System.out.println("Name: " + input.readUTF() + " | Score: " + input.readInt());
+        System.out.println("Name: " + input.readUTF() + " | Score: " + input.readInt());
     }
 }
