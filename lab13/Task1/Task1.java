@@ -28,7 +28,7 @@ public class Task1 {
 
         while (reader.hasNext()) {
             int n = reader.nextInt();
-            System.out.println(n + " ");
+            System.out.print(n + " ");
             sum += n;
             count++;
         }
