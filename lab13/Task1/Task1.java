@@ -33,7 +33,7 @@ public class Task1 {
             count++;
         }
 
-        double avg = sum / count;
+        double avg = (double) sum / count;
 
         System.out.println("Sum: " + sum);
         System.out.println("Avg: " + avg);
