@@ -15,6 +15,8 @@ public class FileWriterExp {
         fw.write("Alisson Becker 90");
         fw.write("Mo Salah 89");
 
+        fw.close();
+
         Scanner read = new Scanner(f1);
 
         while(read.hasNext()) {
