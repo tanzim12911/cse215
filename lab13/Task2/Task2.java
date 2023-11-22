@@ -22,6 +22,10 @@ public class Task2 {
         
         Quiz[] quiz = new Quiz[4];
 
+        for (int i = 0; i < quiz.length; i++) {
+            quiz[i] = new Quiz();
+        }
+
         int i = 0;
 
         while (reader.hasNext()) {
