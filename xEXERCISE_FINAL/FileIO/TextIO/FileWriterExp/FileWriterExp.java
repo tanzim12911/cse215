@@ -24,7 +24,7 @@ public class FileWriterExp {
             //String last_name = read.next();
             int score = read.nextInt();
             
-            System.out.println("First Name: " + first_name + " | Last Name: " + last_name + " | Score: " + score);
+            System.out.println("First Name: " + first_name + " | Score: " + score);
         }
 
 
