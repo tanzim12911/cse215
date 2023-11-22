@@ -23,11 +23,18 @@ public class Task1 {
 
         Scanner reader = new Scanner(f1);
 
+        int sum = 0;
+        int count = 0;
+
         while (reader.hasNext()) {
             int n = reader.nextInt();
 
-            System.out.println(n + " ");
+            sum += n;
+            count++;
         }
+
+        System.out.println("Sum: " + sum);
+        System.out.println("Avg: " + (sum / count) );
 
     }
 }
