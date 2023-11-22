@@ -2,7 +2,7 @@ package xEXERCISE_FINAL.ArrayList;
 
 import java.util.ArrayList;
 
-public class SecondOcurrance {
+public class SecondOccurrence {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>();
 
@@ -23,19 +23,19 @@ public class SecondOcurrance {
 
         for (int i = 0; i < list.size() - 1; i++) {
             for (int j = i + 1; j < list.size(); j++) {
-                if(list.get(i).equals(list.get(j))) {
+                if (list.get(i).equals(list.get(j))) {
                     index_1 = i;
                     index_2 = j;
                     found = true;
                     break;
                 }
-                if(found) {
-                    break;
-                }
+            }
+            if (found) {
+                break;
             }
         }
 
-        System.out.println("Second Ocurrance of " + list.get(index_1) +  " Index: " + index_2);
-
+        System.out.println("First occurrence at index: " + index_1);
+        System.out.println("Second occurrence at index: " + index_2);
     }
 }
