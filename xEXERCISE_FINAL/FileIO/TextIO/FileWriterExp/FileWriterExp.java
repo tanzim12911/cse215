@@ -11,9 +11,9 @@ public class FileWriterExp {
 
         FileWriter fw = new FileWriter(f1);
 
-        fw.write("Van Dijk 89");
-        fw.write("Alisson Becker 90");
-        fw.write("Mo Salah 89");
+        fw.write("Van Dijk 89\n");
+        fw.write("Alisson Becker 90\n");
+        fw.write("Mo Salah 89\n");
 
         fw.close();
 
