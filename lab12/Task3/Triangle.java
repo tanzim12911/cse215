@@ -1,4 +1,4 @@
-package xEXERCISE_FINAL.Inheritance.Geometry;
+package lab12.Task3;
 
 public class Triangle extends GeometricObject {
     private double side1;
@@ -10,10 +10,8 @@ public class Triangle extends GeometricObject {
         side2 = 1.0;
         side3 = 1.0;
     }
-    Triangle(double side1, double side2, double side3) {
-        this.side1 = side1;
-        this.side2 = side2;
-        this.side3 = side3;
+    Triangle(double side1, double side2, double side3) throws IllegalTriangleException {
+        setSides(side1, side2, side3);
     }
 
     public double getSide1() {
@@ -28,6 +26,19 @@ public class Triangle extends GeometricObject {
         return side3;
     }
 
+    public void setSides(double side1, double side2, double side3) throws IllegalTriangleException {
+        
+        if((this.side1 + this.side2 < side3) || (this.side1 + this.side3 < side2) || (this.side2 + this.side3 < side1)) {
+            throw new IllegalTriangleException("The sum of any two sides is not greater than the third side");
+        }
+        else{
+            this.side1 = side1;
+            this.side2 = side2;
+            this.side3 = side3;
+        }
+    }
+    
+    
     public double getArea() {
         double a = side1;
         double b = side2;
