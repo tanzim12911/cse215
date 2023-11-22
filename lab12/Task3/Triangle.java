@@ -34,6 +34,7 @@ public class Triangle extends GeometricObject {
             throw new IllegalTriangleException(side1, side2, side3);
         } else if (side1 + side3 < side2) {
             throw new IllegalTriangleException(side1, side2, side3);
+        }
         else{
             this.side1 = side1;
             this.side2 = side2;
