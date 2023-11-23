@@ -12,7 +12,9 @@ public class DuplicateCopy {
         map.put("Luiz Diaz", 84);
         map.put("Diogo Jota", 85);
 
-        
+        for(int i : map.values()) {
+            if(i == )
+        }
     }
 
 }
