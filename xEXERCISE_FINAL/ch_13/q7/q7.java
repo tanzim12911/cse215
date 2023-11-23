@@ -8,8 +8,12 @@ public class q7 {
             gmtObj[i] = new Square(Math.random() * 100);
         }
 
-        for (int j = 0; j < gmtObj.length; j++) {
-            
+        for (int i = 0; i < gmtObj.length; i++) {
+            if (gmtObj[i] instanceof Square) {
+                Square sq = (Square) gmtObj[i];
+                System.out.println("Side: " + sq.getSide() + " & Area: " + sq.getArea());
+                sq.howToColor();
+            }
         }
     }
 }

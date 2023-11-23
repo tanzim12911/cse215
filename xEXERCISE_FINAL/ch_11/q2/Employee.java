@@ -8,7 +8,7 @@ public class Employee extends Person {
     private Date dateHired;
 
     public Employee() {
-        
+
     }
     
     public Employee(String office, double salary, Date dateHired) {
