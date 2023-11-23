@@ -1,7 +1,5 @@
 package ch_13.q9;
 
-import ch_13.q9.GeometricObject;
-
 public class Circle extends GeometricObject implements Comparable<Circle> {
     private double radius;
 
