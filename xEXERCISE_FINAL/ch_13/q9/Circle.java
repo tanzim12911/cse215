@@ -1,6 +1,6 @@
-package ch_13.q9;
+package xEXERCISE_FINAL.ch_13.q9;
 
-public class Circle extends GeometricObject implements Comparable<Circle> {
+public class Circle extends GeometricObject {
     private double radius;
 
     public Circle() {
@@ -39,17 +39,7 @@ public class Circle extends GeometricObject implements Comparable<Circle> {
                 + getArea() + "\nPerimeter: " + getPerimeter();
     }
 
-    @Override
-    public boolean equals(Object o) {
-        Circle c = (Circle) o;
-        if(this.radius == c.radius)
-            return true;
-        else
-            return false;
-    }
+    
 
-    @Override
-    public int compareTo(Circle c) {
-        return Double.compare(radius, c.radius);
-    }
+    
 }
