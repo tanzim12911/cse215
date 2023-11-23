@@ -1,4 +1,4 @@
-package ch_13.q11;
+package xEXERCISE_FINAL.ch_13.q11;
 
 public class Octagon extends GeometricObject implements Cloneable, Comparable<Octagon> {
     private double side;
