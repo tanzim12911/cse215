@@ -13,6 +13,7 @@ public class FrameTest {
         
 
         JButton jb1 = new JButton("Press");
+        jb1.setSize(10, 20);
         f1.add(jb1);
     }
 }
