@@ -28,5 +28,6 @@ public class Flow extends JFrame {
         x.add(jt1);
 
         JLabel jl2 = new JLabel(icon);
+        x.add(jl2);
     }
 }
