@@ -10,6 +10,9 @@ public class FrameTest {
         f1.setSize(600, 400);
         f1.setVisible(true);
         f1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        f1.setBackground(new Color(500));
+        
+
+        JButton jb1 = new JButton("Press");
+        f1.add(jb1);
     }
 }
