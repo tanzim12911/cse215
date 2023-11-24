@@ -25,10 +25,12 @@ public class Border extends JFrame {
         JLabel jl1 = new JLabel("Name: ");
         x.add(jl1);
         JTextField jt1 = new JTextField(24);
+        x.add(jt1);
 
         JLabel jl2 = new JLabel("ID: ");
         x.add(jl2);
         JTextField jt2 = new JTextField(24);
+        x.add(jt2);
 
     }
 } 
