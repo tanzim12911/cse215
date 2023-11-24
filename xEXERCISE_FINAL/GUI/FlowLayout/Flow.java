@@ -6,6 +6,8 @@ import javax.swing.*;
 public class Flow extends JFrame {
     private Container x;
 
+    private ImageIcon icon = new ImageIcon("A.png");
+
     Flow() {
         allComponant();
     }
@@ -24,5 +26,7 @@ public class Flow extends JFrame {
 
         JTextField jt1 = new JTextField("Field");
         x.add(jt1);
+
+        JLabel jl2 = new JLabel(icon);
     }
 }
