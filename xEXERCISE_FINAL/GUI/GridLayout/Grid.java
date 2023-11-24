@@ -1,4 +1,4 @@
-package xEXERCISE_FINAL.GUI.BorderLayout;
+package xEXERCISE_FINAL.GUI.GridLayout;
 
 import java.awt.Color;
 import java.awt.Container;
@@ -6,10 +6,10 @@ import java.awt.GridLayout;
 
 import javax.swing.*;
 
-public class Border extends JFrame {
+public class Grid extends JFrame {
     private Container x;
 
-    Border() {
+    Grid() {
         allComponant();
     }
 
