@@ -10,5 +10,9 @@ public class ArrayListConversionExp {
         ArrayList<Integer> list = new ArrayList<>(Arrays.asList(arr));
 
         System.out.println(list.toString());
+
+        java.util.Collections.sort(list);
+
+        System.out.println("Sort: " + list.toString());
     }
 }
