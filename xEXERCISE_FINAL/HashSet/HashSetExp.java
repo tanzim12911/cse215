@@ -12,5 +12,9 @@ public class HashSetExp {
         set.add("Seoul");
 
         System.out.println(set.toString());
+
+        set.remove("Seoul");
+
+        System.out.println(set.toString());
     }
 }
