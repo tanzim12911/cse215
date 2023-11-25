@@ -20,7 +20,7 @@ public class ArrayListExp {
 
         System.out.println(list.toString());
 
-        list.remove(1);
+        list.remove("Dhaka");
 
         System.out.println(list.toString());
 
