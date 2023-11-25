@@ -1,6 +1,9 @@
 package xEXERCISE_FINAL.GUI.FlowLayout;
 
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 import javax.swing.*;
 
 public class Flow extends JFrame {
@@ -29,5 +32,10 @@ public class Flow extends JFrame {
 
         JLabel jl2 = new JLabel(icon);
         x.add(jl2);
+
+    }
+
+    class Handler implements ActionListener {
+        
     }
 }
