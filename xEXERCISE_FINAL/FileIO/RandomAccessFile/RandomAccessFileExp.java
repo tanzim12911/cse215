@@ -22,7 +22,7 @@ public class RandomAccessFileExp {
         System.out.println("6th Num: " + f1.readInt());
 
         f1.seek(6 * 4);
-        System.out.println("7th Num: " + f1.readInt());
+
 
         f1.writeInt(700);
 
