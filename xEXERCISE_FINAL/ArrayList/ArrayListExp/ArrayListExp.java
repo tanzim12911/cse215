@@ -24,8 +24,9 @@ public class ArrayListExp {
 
         System.out.println(list.toString());
 
-        list.clear();
+        //list.clear();
+        //System.out.println(list.toString());
 
-        System.out.println(list.toString());
+        System.out.println(list.size());
     }
 }
