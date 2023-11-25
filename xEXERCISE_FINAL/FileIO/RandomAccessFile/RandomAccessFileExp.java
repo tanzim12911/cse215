@@ -15,8 +15,24 @@ public class RandomAccessFileExp {
 
         System.out.println(f1.length());
         
-        
+        f1.seek(0);
+        System.out.println("1st Num: " + f1.readInt());
 
+        f1.seek(5 * 4);
+        System.out.println("6th Num: " + f1.readInt());
+
+        f1.seek(6 * 4);
+        System.out.println("7th Num: " + f1.readInt());
+
+        f1.writeInt(700);
+
+        f1.seek(f1.length());
+        f1.writeInt(101);
+
+        System.out.println("New Size: " + f1.length());
+
+        f1.seek(6 * 4);
+        System.out.println("Modified 7th Num: " + f1.readInt());
 
         
     }
