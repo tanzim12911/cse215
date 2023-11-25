@@ -5,8 +5,10 @@ import java.util.Arrays;
 
 public class ArrayListConversionExp {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5};
+        Integer[] arr = {1, 2, 3, 4, 5};
 
-        ArrayList list = Arrays.asList(arr);
+        ArrayList<Integer> list = new ArrayList<>(Arrays.asList(arr));
+
+        System.out.println(list.toString());
     }
 }
