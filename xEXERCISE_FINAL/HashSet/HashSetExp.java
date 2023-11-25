@@ -17,8 +17,8 @@ public class HashSetExp {
 
         System.out.println(set.toString());
 
-        set.contains("Seoul");
+        
 
-        System.out.println(set.toString());
+        System.out.println(set.contains("Seoul"));
     }
 }
