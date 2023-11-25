@@ -15,6 +15,9 @@ public class ArrayListConversionExp {
 
         System.out.println("Shuffle: " + list.toString());
 
+        System.out.println(java.util.Collections.max(list));
+        System.out.println(java.util.Collections.min(list));
+
         java.util.Collections.sort(list);
 
         System.out.println("Sort: " + list.toString());
