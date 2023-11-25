@@ -17,8 +17,26 @@ public class HashSetExp {
 
         System.out.println(set.toString());
 
-        
-
         System.out.println(set.contains("Seoul"));
+
+        HashSet<String> set2 = new HashSet<>();
+
+        set2.add("Dhaka");
+        set2.add("Seoul");
+        set2.add("Dehli");
+
+        System.out.println(set2.toString());
+
+        set.addAll(set2);
+
+        System.out.println(set.toString());
+
+        set.removeAll(set2);
+
+        System.out.println(set.toString());
+
+        set.retainAll(set2);
+
+        System.out.println(set.toString());
     }
 }
