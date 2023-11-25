@@ -31,6 +31,10 @@ public class ArrayListExp {
 
         System.out.println(list.get(2));
 
+        for(String i : list) {
+            System.out.println(i);
+        }
+
 
     }
 }
