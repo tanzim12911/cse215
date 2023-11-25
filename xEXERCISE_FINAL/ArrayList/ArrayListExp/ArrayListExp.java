@@ -27,6 +27,10 @@ public class ArrayListExp {
         //list.clear();
         //System.out.println(list.toString());
 
-        System.out.println(list.size());
+        System.out.println("Size: "+ list.size());
+
+        System.out.println(list.get(2));
+
+
     }
 }
