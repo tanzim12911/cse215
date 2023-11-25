@@ -13,7 +13,7 @@ public class HashMapExp {
         System.out.println(map.get("Shakib"));
 
         for(String i : map.keySet()) {
-            System.out.println(i);
+            System.out.println(i + map.get(i));
         }
         for(Integer i : map.values()) {
             System.out.println(i);
