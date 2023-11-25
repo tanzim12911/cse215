@@ -33,7 +33,7 @@ public class LinkedListExp {
 
         listIterator = linkedList.listIterator(linkedList.size());
         while (listIterator.hasPrevious()) {
-            System.out.println(listIterator.hasPrevious() + " ");
+            System.out.println(listIterator.previous() + " ");
         }
         
     }
