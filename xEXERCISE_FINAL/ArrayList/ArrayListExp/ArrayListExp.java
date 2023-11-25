@@ -35,6 +35,12 @@ public class ArrayListExp {
             System.out.println(i);
         }
 
+        System.out.println("Backward: ");
+
+        for (int i = list.size() - 1; i >= 0 ; i--) {
+            System.out.println(list.get(i));
+        }
+
 
     }
 }
