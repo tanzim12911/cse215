@@ -20,6 +20,6 @@ public class ArrayListExp {
 
         System.out.println(list.toString());
 
-        list.
+        
     }
 }
