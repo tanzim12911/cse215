@@ -16,5 +16,9 @@ public class HashSetExp {
         set.remove("Seoul");
 
         System.out.println(set.toString());
+
+        set.contains("Seoul");
+
+        System.out.println(set.toString());
     }
 }
