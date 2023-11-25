@@ -13,5 +13,9 @@ public class ArrayListExp {
         list.add("Seoul");
 
         System.out.println(list.toString());
+
+        list.add(1, "Dhaka");
+
+        System.out.println(list.toString());
     }
 }
