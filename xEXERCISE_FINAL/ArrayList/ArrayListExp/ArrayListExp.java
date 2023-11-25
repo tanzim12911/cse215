@@ -13,9 +13,13 @@ public class ArrayListExp {
         list.add("Seoul");
 
         System.out.println(list.toString());
+        
+        System.out.println("Contains Paris: " + list.contains("Paris"));
 
         list.add(1, "Dhaka");
 
         System.out.println(list.toString());
+
+        list.
     }
 }
