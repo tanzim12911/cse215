@@ -11,6 +11,10 @@ public class ArrayListConversionExp {
 
         System.out.println(list.toString());
 
+        java.util.Collections.shuffle(list);
+
+        System.out.println("Shuffle: " + list.toString());
+
         java.util.Collections.sort(list);
 
         System.out.println("Sort: " + list.toString());
