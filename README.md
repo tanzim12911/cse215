@@ -2,6 +2,8 @@
 Resources : https://drive.google.com/drive/folders/19AIaKDBi-fhXBTC9slmo72HivkPTQLJC?usp=drive_link
             https://www.harrydulaney.com/intro-to-java-programming/
 
+# Note to self
+
 ch_11: q2
 ch_12: q5
 ch_13: q7, q9, q11
