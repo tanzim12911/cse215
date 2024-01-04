@@ -1,4 +1,4 @@
-# cse215
+# CSE 215 Programming Language II
 Resources : https://drive.google.com/drive/folders/19AIaKDBi-fhXBTC9slmo72HivkPTQLJC?usp=drive_link
             https://www.harrydulaney.com/intro-to-java-programming/
 
