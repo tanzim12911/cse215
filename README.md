@@ -1,4 +1,6 @@
 # cse215
+Resources : https://drive.google.com/drive/folders/19AIaKDBi-fhXBTC9slmo72HivkPTQLJC?usp=drive_link
+            https://www.harrydulaney.com/intro-to-java-programming/
 
 ch_11: q2
 ch_12: q5
